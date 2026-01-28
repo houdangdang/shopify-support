@@ -1,10 +1,10 @@
-# About Maestrooo Themes
+# About Verve Themes
 
-Overview of Maestrooo themes and common features.
+Overview of Verve themes and common features.
 
 ## Our Themes
 
-Maestrooo offers several premium Shopify themes, each designed for specific use cases:
+Verve offers several premium Shopify themes, each designed for specific use cases:
 
 | Theme | Best For |
 |-------|----------|
@@ -16,7 +16,7 @@ Maestrooo offers several premium Shopify themes, each designed for specific use 
 
 ## Common Features
 
-All Maestrooo themes include:
+All Verve themes include:
 
 ### 🎨 Design System
 - Consistent typography and spacing

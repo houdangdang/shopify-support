@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Shopify Themes"
   text: "Documentation"
-  tagline: Knowledge base for Maestrooo themes on Shopify
+  tagline: Knowledge base for Verve themes on Shopify
   image:
     src: /logo.svg
     alt: Shopify Themes
@@ -19,7 +19,7 @@ hero:
 features:
   - icon: 🚀
     title: Getting Started
-    details: Learn the basics of Maestrooo themes, including installation, configuration, and essential concepts.
+    details: Learn the basics of Verve themes, including installation, configuration, and essential concepts.
     link: /getting-started/
   - icon: ⚙️
     title: Theme Configuration

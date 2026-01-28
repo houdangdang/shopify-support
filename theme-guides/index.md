@@ -1,6 +1,6 @@
 # Theme Specific Guides
 
-Detailed guides for each Maestrooo theme.
+Detailed guides for each Verve theme.
 
 ## Our Themes
 

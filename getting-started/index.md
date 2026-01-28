@@ -1,10 +1,10 @@
 # Getting Started
 
-Welcome to the Maestrooo Themes documentation. This guide will help you get started with your theme and make the most of its features.
+Welcome to the Verve Themes documentation. This guide will help you get started with your theme and make the most of its features.
 
-## About Maestrooo Themes
+## About Verve Themes
 
-Maestrooo creates premium Shopify themes that are designed to help you build beautiful, high-converting online stores. Our themes are:
+Verve creates premium Shopify themes that are designed to help you build beautiful, high-converting online stores. Our themes are:
 
 - **Fully customizable** - Extensive theme settings and section options
 - **Mobile responsive** - Optimized for all devices
@@ -17,7 +17,7 @@ Get up and running quickly with these essential guides:
 
 | Topic | Description |
 |-------|-------------|
-| [About Themes](/getting-started/about-themes) | Overview of Maestrooo themes and features |
+| [About Themes](/getting-started/about-themes) | Overview of Verve themes and features |
 | [Editing Your Theme](/theme-basics/editing-theme) | Learn how to customize your theme |
 | [Support Policy](/getting-started/support-policy) | Understand what's included in support |
 | [Browser Support](/getting-started/browser-support) | Supported browsers and versions |

@@ -18,7 +18,7 @@ Information about theme licenses and how to transfer them.
 
 Your theme is automatically licensed when purchased through:
 - Shopify Theme Store
-- Maestrooo website
+- Verve website
 
 ::: info License Key
 No license key is required. Your purchase is linked to your Shopify account.

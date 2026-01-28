@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Shopify Themes",
-  description: "Knowledge base for Maestrooo themes on Shopify",
+  description: "Knowledge base for Verve themes on Shopify",
   base: '/shopify-support/',
 
   head: [
@@ -104,7 +104,7 @@ export default defineConfig({
 
     footer: {
       message: 'Shopify Themes Documentation',
-      copyright: '© 2026 Maestrooo. All rights reserved.'
+      copyright: '© 2026 Verve. All rights reserved.'
     },
 
     outline: {
