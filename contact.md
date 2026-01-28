@@ -13,7 +13,7 @@ Please check these resources first:
 ## Contact Methods
 
 ### Email Support
-📧 **support@Verve.com**
+📧 **houdangdang@gmail.com**
 
 Response time: 24-48 hours
 
