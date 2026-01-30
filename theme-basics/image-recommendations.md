@@ -8,6 +8,8 @@ Optimal image dimensions for best quality and performance.
 - Use **PNG** for graphics with transparency
 - Use **WebP** for best compression (auto-converted by Shopify)
 
+![Image Size Recommendations in Theme Editor](/assets/images/theme-basics/image-size-picker.png)
+
 ## Recommended Sizes
 
 ### Product Images

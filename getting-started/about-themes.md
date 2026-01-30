@@ -8,11 +8,7 @@ Verve offers several premium Shopify themes, each designed for specific use case
 
 | Theme | Best For |
 |-------|----------|
-| **Prestige** | Luxury and high-end brands |
-| **Impact** | Bold, visual-first stores |
-| **Focal** | Photography and creative stores |
-| **Warehouse** | Large catalogs and wholesale |
-| **Stretch** | Flexible, multi-purpose stores |
+| **Verve** | Large catalogs and wholesale |
 
 ## Common Features
 
@@ -21,7 +17,6 @@ All Verve themes include:
 ### 🎨 Design System
 - Consistent typography and spacing
 - Customizable color schemes
-- Dark mode support
 - Responsive layouts
 
 ### 📱 Mobile Optimization

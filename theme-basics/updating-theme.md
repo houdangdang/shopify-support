@@ -33,6 +33,8 @@ If you purchased from the Shopify Theme Store:
 3. Review changes
 4. The update creates a new theme copy
 
+![Theme Update Available](/assets/images/getting-started/theme-update.png)
+
 ### Method 2: Manual Update
 
 1. Download the latest theme version

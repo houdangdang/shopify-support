@@ -113,7 +113,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/your-repo/shopify-support/edit/main/:path',
+      pattern: 'https://github.com/houdangdang/shopify-support/edit/main/:path',
       text: 'Edit this page on GitHub'
     }
   }

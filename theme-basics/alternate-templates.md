@@ -19,6 +19,10 @@ Alternate templates allow you to create different layouts for:
 4. Name your template
 5. Customize the layout
 
+![Creating a New Template](/assets/images/theme-basics/create-template.gif)
+
+![Template Name](/assets/images/theme-basics/template-name.png)
+
 ### Method 2: Code Editor
 
 1. Go to **Online Store** → **Themes** → **Edit code**
@@ -34,6 +38,8 @@ Alternate templates allow you to create different layouts for:
 3. Scroll to **Theme template**
 4. Select your alternate template
 5. Save
+
+![Assigning Template to Product](/assets/images/theme-basics/assign-template.png)
 
 ### To Collections
 

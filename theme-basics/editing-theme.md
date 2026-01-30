@@ -8,6 +8,8 @@ Learn how to customize your theme using the Shopify theme editor.
 2. Navigate to **Online Store** → **Themes**
 3. Click **Customize** on your current theme
 
+![Theme Editor Interface](/assets/images/theme-basics/theme-editor-sections.png)
+
 ## Theme Editor Overview
 
 The theme editor consists of:
@@ -29,6 +31,8 @@ The theme editor consists of:
 ## Global Theme Settings
 
 Click the **Theme settings** icon (gear) to access:
+
+![Theme Settings Icon](/assets/images/theme-basics/theme-settings-icon.png)
 
 | Setting | Description |
 |---------|-------------|

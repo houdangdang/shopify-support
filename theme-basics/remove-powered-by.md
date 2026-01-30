@@ -9,6 +9,9 @@ The simplest method:
 1. Open the theme editor
 2. Click **Theme settings** (gear icon)
 3. Open **Custom CSS**
+
+![Custom CSS Panel](/assets/images/theme-basics/custom-css-panel.png)
+
 4. Add this code:
 
 ```css

@@ -24,6 +24,8 @@ Metafields allow you to add custom data to:
    - Content type
    - Validation rules
 
+![Metafields Configuration Example](/assets/images/theme-basics/metafields-example.png)
+
 ### Common Use Cases
 
 | Metafield | Use Case |
