@@ -1,37 +1,37 @@
-# About Verve Themes
+# About GirlElements Themes
 
-Overview of Verve themes and common features.
+Overview of GirlElements themes and common features.
 
 ## Our Themes
 
-Verve offers several premium Shopify themes, each designed for specific use cases:
+GirlElements offers several premium Shopify themes, each designed for specific use cases:
 
 | Theme | Best For |
 |-------|----------|
-| **Verve** | Large catalogs and wholesale |
+| **Verve** | High-volume stores and wholesale |
 
 ## Common Features
 
-All Verve themes include:
+All GirlElements themes include:
 
-### 🎨 Design System
+### Design System
 - Consistent typography and spacing
 - Customizable color schemes
 - Responsive layouts
 
-### 📱 Mobile Optimization
+### Mobile Optimization
 - Touch-friendly navigation
 - Optimized images for mobile
 - Fast mobile performance
 
-### 🔍 SEO Ready
+### SEO Ready
 - Semantic HTML structure
 - Optimized meta tags
 - Schema.org markup
 - Fast page loads
 
-### ♿ Accessibility
-- WCAG 2.1 compliance
+### Accessibility
+- WCAG 2.1 best practices
 - Keyboard navigation
 - Screen reader support
 - Focus indicators

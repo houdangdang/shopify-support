@@ -1,49 +1,20 @@
-# Browser Support
+# Browser support
 
-Our themes support all modern browsers.
+Our themes fully support the latest two major versions of each browser. We are making an exception for Safari because Safari releases are not automatic and are tied to the operating system version. For Safari, we guarantee support from iOS14 up to the latest version. Please note that iOS14 is not guaranteed to display the same as more recent versions (however, the full purchasing flow is guaranteed to work).
 
-## Supported Browsers
+Our support does not cover any issue caused by using an unsupported browser version. If you want to add compatibility for an older browser, we recommend you check your analytics to see if it is worthwhile and hire a Shopify Expert.
 
-| Browser | Minimum Version |
-|---------|-----------------|
-| Chrome | Latest 2 versions |
-| Firefox | Latest 2 versions |
-| Safari | Latest 2 versions |
-| Edge | Latest 2 versions |
-| Samsung Internet | Latest version |
+## Desktop
+- Chrome: latest two versions (e.g., Chrome 133 and 134)
+- Firefox: latest two versions (e.g., Firefox 135 and 136)
+- Edge: latest two versions (e.g., Edge 133 and 134)
+- Safari: latest version of Safari 14, up to the most recent one (e.g., from Safari 14.1 up to the most recent version).
 
-## Not Supported
+## Mobile
+- Chrome mobile: latest two versions (e.g., Chrome 133 and 134)
+- Firefox mobile: latest two versions (e.g., Firefox 135 and 136)
+- Edge mobile: latest two versions (e.g., Edge 133 and 134)
+- Safari: latest version of Safari 14, up to the most recent one (e.g., from Safari 14.7 up to the most recent version)
 
-::: warning Legacy Browsers
-The following browsers are **not supported**:
-- Internet Explorer (all versions)
-- Opera Mini
-- UC Browser
-:::
-
-## Mobile Support
-
-All themes are fully responsive and tested on:
-
-- **iOS** - Safari on iPhone and iPad
-- **Android** - Chrome on Android devices
-- **Tablets** - Various screen sizes
-
-## JavaScript Requirements
-
-Our themes require JavaScript to be enabled for:
-
-- Product galleries
-- Cart functionality
-- Navigation menus
-- Search features
-- Animations
-
-## CSS Features
-
-We use modern CSS features including:
-
-- CSS Grid and Flexbox
-- CSS Custom Properties (variables)
-- CSS Transitions and Animations
-- Media queries for responsive design
+## JavaScript
+Our themes are all developed to work without JavaScript. However, please remember that some features, such as modal or menu, will only work with JavaScript. When JavaScript is disabled, we only provide a guarantee for the main purchase flow (home page => product => checkout).

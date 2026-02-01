@@ -1,42 +1,22 @@
-# Support Policy
+# Support policy
 
-Learn about our support policy and what's included.
+Our support team is here to assist you from Monday to Friday. Before contacting us, please review our support policy.
 
-## What's Included
+## What we offer:
+- Pre-sale questions
+- Bug fixes that are due to the theme
+- Assistance to setup sections or settings
 
-Our support covers:
+## What we do not offer:
+- Custom development (such as Custom CSS, creating new sections, adding new settings...)
+- App integrations and app debugging
+- Checkout customization (checkout being isolated from the theme, any checkout question must be sent to Shopify support directly)
+- Assistance on features unrelated to the theme (such as Shopify admin)
 
-✅ **Theme functionality** - Help with using built-in features  
-✅ **Bug reports** - Issues with theme functionality  
-✅ **Theme updates** - Guidance on updating your theme  
-✅ **Configuration help** - Assistance with theme settings  
+<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Note:</strong> Please <a href="/shopify-support/contact" target="_blank">fill in our contact form</a> if your question enters our support's scope.
+</div>
 
-## What's Not Included
-
-Support does not cover:
-
-❌ **Custom code modifications** - Changes to theme code  
-❌ **Third-party app issues** - Problems caused by apps  
-❌ **Design customization** - Custom design work  
-❌ **Migration assistance** - Moving from other themes  
-
-## Response Times
-
-| Plan | Response Time |
-|------|---------------|
-| Standard | 24-48 hours |
-| Priority | 4-8 hours |
-
-## How to Get Support
-
-1. Search our [documentation](/) for answers
-2. Check the [FAQ](/contact#faq) section
-3. [Contact us](/contact) with your question
-
-::: tip Include Details
-When contacting support, please include:
-- Your store URL
-- Theme version
-- Steps to reproduce the issue
-- Screenshots if applicable
-:::
+<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Tip:</strong> If you need development, please <a href="/shopify-support/theme-basics/hiring-shopify-expert" target="_blank">click this link</a> to learn more about Shopify Experts.
+</div>

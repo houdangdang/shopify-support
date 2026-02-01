@@ -2,9 +2,9 @@
 
 Recent updates and changes to our themes.
 
-## Version History
+## Verve Theme Version History
 
-### v8.0.0 <Badge type="tip" text="Latest" />
+### v1.0.0 <Badge type="tip" text="Latest" />
 *Released: January 2026*
 
 **New Features:**
@@ -23,32 +23,6 @@ Recent updates and changes to our themes.
 - Resolved image lazy loading issues
 - Fixed currency formatting
 
----
-
-### v7.5.0
-*Released: December 2025*
-
-**New Features:**
-- Added mega menu support
-- New testimonials section
-- Instagram feed integration
-
-**Improvements:**
-- Optimized images for Core Web Vitals
-- Improved SEO meta tags
-
----
-
-### v7.0.0
-*Released: October 2025*
-
-**Major Update:**
-- Complete redesign of product pages
-- New collection filtering system
-- Enhanced checkout integration
-- Improved performance across all pages
-
----
 
 ## Updating Your Theme
 
