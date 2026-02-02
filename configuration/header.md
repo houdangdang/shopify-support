@@ -6,6 +6,8 @@ Learn more about sections in the header group: Header, Mega Menu, Announcement B
 
 All our themes support mega-menu. Mega menus allow you to create rich menus with multi-columns and optional images.
 
+<img src="/public/assets/images/configuring/header/mega-menu.png" alt="Change Fonts" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
 ### Best practices
 
 Before setting up mega-menus, here are some best practices to follow:
