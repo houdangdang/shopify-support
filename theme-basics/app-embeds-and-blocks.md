@@ -34,6 +34,8 @@ Merchants often ask us which apps or how many are optimal. Our answer is simple:
 ## Supports for app
 
 Keep in mind that, as [per our support policy](https://support.maestrooo.com/article/683-support-policy), we do not provide any assistance for apps. Apps are entirely supported by their respective app developers. If you are facing any issue or have any questions about an app, please reach the app developers directly.
+
+<div style="background-color: #ffebee; border-left: 4px solid #f44336; padding: 12px; margin: 16px 0; color: #1a1a1a;">
   <strong>Warning:</strong> If you are facing any issue or have any questions about an app, please reach the app developers directly. Our support team cannot troubleshoot third-party apps.
 </div>
 
