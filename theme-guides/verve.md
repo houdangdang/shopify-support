@@ -28,7 +28,7 @@ For instance, if you want to add the "Sale" label for a given product, just add 
   <strong>Important:</strong> Tag must start with TWO consecutive underscores. If you add only one, it won't work. Please note as well that the theme will automatically remove all the tags that starts by two underscore and will not display them in the list of tags for filtering.
 </div>
 
-On Warehouse and Focal themes only, you can add up to two custom labels. To add a second label, simply use **__label2:LABEL** in addition.
+On Verve and Focal themes only, you can add up to two custom labels. To add a second label, simply use **__label2:LABEL** in addition.
 
 
 ## Show a stock countdown bar (Verve)

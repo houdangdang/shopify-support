@@ -1,72 +1,92 @@
-# Alternate Templates
+# Managing alternate templates
 
-Create different layouts for products, collections, and pages.
+## What are templates?
 
-## What are Alternate Templates?
+A template controls the sections visible on a given page. There are templates for all page types in Shopify, such as:
 
-Alternate templates allow you to create different layouts for:
-- Product pages
-- Collection pages
-- Regular pages
+- Home page
+- Product
+- Collection
+- Blog
+- Blog post
+- Cart
+- Customer account
+- ...
 
-## Creating Alternate Templates
+Shopify automatically creates a so-called "default template" for each of those page types, which is used by all objects from a given type (for instance, each product will use the "default product template," while each collection will use the "default collection template").
 
-### Method 1: Theme Editor
+This is why, when you add a section to a product template in the theme editor, this section will be visible to every product, as each product uses the default product template.
 
-1. Open the theme editor
-2. Go to **Add template**
-3. Choose the template type
-4. Name your template
-5. Customize the layout
+This behavior often catches by surprises merchants new to Shopify and is not always desirable, as you may want to create unique product pages or landing pages.
 
-![Creating a New Template](/assets/images/theme-basics/create-template.gif)
+By using alternate templates, you can, for example:
 
-![Template Name](/assets/images/theme-basics/template-name.png)
+- Create a landing page for temporary events like Black Friday or Valentine's Day.
+- Create a page about your brand's history.
+- Create different product pages whose sections and content are different for each product.
+- Create different collection pages whose sections and content are different for each product.
 
-### Method 2: Code Editor
+<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Note:</strong> It is not possible to create a new template for the home page. Each Shopify store can only have one home page. If you need to create landing pages, we recommend creating a new "Page" template instead.
+</div>
 
-1. Go to **Online Store** → **Themes** → **Edit code**
-2. Open the `/templates` folder
-3. Create a new file like `product.alternate.json`
+## Creating new templates
 
-## Applying Templates
+To create a new template, open the theme editor, click on the page selector at the top, select the page type (for instance, click on "Products" to create a new product template or "Pages" to create a new page template), and click "Create template":
 
-### To Products
+Enter a unique name that you can easily recognize.
 
-1. Go to **Products** in Shopify admin
-2. Open the product
-3. Scroll to **Theme template**
-4. Select your alternate template
-5. Save
+Based on option allows you to select from which template the new template is created. This can be useful if you have already created custom templates and want to create a new one based on it rather than the default template.
 
-![Assigning Template to Product](/assets/images/theme-basics/assign-template.png)
+After creating the template, the theme editor will redirect you to the template. The template's name is visible on the top left (Shopify will show a handleized name, which means that a hyphen replaces any space):
 
-### To Collections
+You can, from here, add, remove or re-order new sections without impacting the default template.
 
-1. Go to **Collections**
-2. Open the collection
-3. Select the template
-4. Save
+## Assigning templates to resources
 
-### To Pages
+After creating a template, you can configure its content in the theme editor by adding, removing, or re-ordering sections. However, it won't be visible to your customers yet. This is because templates must be explicitly assigned to a resource (such as a product, collection, or page) before being visible.
 
-1. Go to **Online Store** → **Pages**
-2. Open the page
-3. Choose the template
-4. Save
+To assign a template, navigate to a resource in the Shopify admin (such as a product, page, or collection). On the bottom right, locate the "Online store" card, and click "Default product" to display all the existing templates for this resource. Finally, select the template of your choice, and save:
 
-## Use Cases
+<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Note:</strong> If you do not see the template you have created, this might be because the theme is not published. Alternate templates are contextual to the published theme only, so you won't be able to assign a template until the theme is published. If you customize a draft theme, the template won't appear in the Shopify admin. This is a Shopify platform limitation.
+</div>
 
-| Template | Use Case |
-|----------|----------|
-| `product.presale` | Pre-order products |
-| `product.bundle` | Bundle products |
-| `collection.sale` | Sale collections |
-| `page.contact` | Contact page |
-| `page.faq` | FAQ page |
+## Deleting or renaming a template
 
-::: tip Template Ideas
-- Landing pages for marketing campaigns
-- Special layouts for featured products
-- Different collection styles by category
-:::
+Shopify does not offer any way to delete a template from the theme editor. Deleting a template requires you to edit the code. You can [find more information on Shopify documentation](https://help.shopify.com/en/manual/online-store/themes/theme-structure/templates).
+
+Editing the code requires basic coding knowledge. Deleted code cannot be recovered. If you are not confident about coding, we highly encourage you to reach Shopify support or hire a developer to help you delete templates safely.
+
+## FAQ
+
+### How to create a landing page, such as a Black Friday page?
+
+To create a landing page, we recommend you create a new page template (as per previous instructions), and assign this template to [a new web page](https://help.shopify.com/manual/online-store/themes/theme-structure/pages).
+
+### How can I assign a template if my theme is not published yet?
+
+Templates can only be assigned to a product or page... when the theme is published. You can, however, create the template and add sections and content even if the theme is a draft one. Then, once you have published the theme, immediately assign the templates.
+
+<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Tip:</strong> Plan ahead when working with a draft theme. Create all your templates first, then publish and assign them to resources immediately.
+</div>
+
+### Is there a limit on templates?
+
+Shopify allows you to create up to 1000 unique templates. However, to make maintenance more manageable, we recommend you limit the number of new templates you create.
+
+<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Important:</strong> While you can create up to 1000 templates, having too many templates makes your store harder to maintain. Try to use metafields for content variations when possible to reduce the number of templates needed.
+</div>
+
+### Does creating a template impact performance?
+
+Creating new templates has no impact on performance.
+
+| Template Aspect | Performance Impact |
+|----------------|-------------------|
+| Number of templates | None |
+| Template complexity | Minimal |
+| Sections per template | Affects page load time |
+| Apps in templates | Can impact performance |

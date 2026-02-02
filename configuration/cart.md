@@ -1,64 +1,80 @@
-# Cart Configuration
+# Cart
 
-Customize your store's cart experience.
+## Gathering extra information with cart attributes
 
-## Cart Types
+Cart attributes are a Shopify feature that allows you to gather extra information about an order, such as a delivery day, a gift message, or similar information.
 
-Choose your cart style:
+Our theme does not allow adding arbitrary cart attributes, as each store has its own requirements and specific information to gather. Consequently, to gather extra cart information, you must either install an app (you can reach Shopify support for some recommendations) or [hire a developer](https://support.GirlElements.com/article/698-hiring-a-shopify-expert-for-customization). Our support team does not offer coding support to do that.
 
-| Type | Description |
-|------|-------------|
-| **Page** | Full cart page |
-| **Drawer** | Slide-out cart drawer |
-| **Modal** | Popup cart modal |
+<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Note:</strong> Cart attributes are different from product options or checkout fields. They are custom fields that appear on the cart page to collect additional information before checkout.
+</div>
 
-## Cart Settings
+### Common Use Cases for Cart Attributes
 
-Configure in **Theme settings** → **Cart**:
+Cart attributes can be used to collect various types of information:
 
-### Display Options
-- Show product images
-- Show vendor
-- Enable quantity selector
-- Show remove button
+| Use Case | Example |
+|----------|---------|
+| **Delivery preferences** | Preferred delivery day or time |
+| **Gift messages** | Personalized message for gift orders |
+| **Special instructions** | Handling or packaging requests |
+| **Order notes** | Additional information about the order |
+| **Customization details** | Extra details for custom products |
 
-### Cart Totals
-- Show subtotal
-- Show taxes
-- Show shipping estimate
-- Show savings
+### Implementation Options
 
-## Cart Notes
+#### Option 1: Shopify Apps
 
-Enable cart notes for special instructions:
+Several Shopify apps can add cart attribute functionality without coding:
 
-1. Open **Cart** settings
-2. Enable **Cart note**
-3. Customize placeholder text
+- **Cart customization apps** - Add custom fields to your cart
+- **Checkout customization apps** - Extend checkout with additional fields
+- **Order management apps** - Collect and manage extra order information
 
-## Gift Wrapping
+<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Tip:</strong> Contact Shopify support for app recommendations that best fit your specific use case and budget.
+</div>
 
-Add gift wrap option:
+#### Option 2: Custom Development
 
-1. Create a gift wrap product
-2. Enable in cart settings
-3. Configure price and messaging
+For more complex requirements or complete control over the cart attributes:
 
-## Free Shipping Bar
+- Hire a Shopify Expert or developer
+- Custom code the cart attribute fields
+- Integrate with your specific business workflow
 
-Show progress towards free shipping:
+<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Important:</strong> Our theme support team does not provide coding assistance for cart attributes. If you need custom cart attributes, you must work with a developer or use a third-party app.
+</div>
 
-1. Enable **Free shipping bar**
-2. Set threshold amount
-3. Customize messaging
+### Alternative: Cart Notes
 
-::: tip Encourage Higher Orders
-Free shipping bars can increase average order value by 15-20%.
-:::
+If you only need simple text input from customers, consider using the built-in **Cart notes** feature:
 
-## Cart Upsells
+1. Open theme editor
+2. Navigate to **Cart** settings
+3. Enable **Cart note**
+4. Customize the placeholder text
 
-Display recommended products:
-- Cross-sells in cart drawer
-- "You may also like" section
-- Bundle suggestions
+<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+  <strong>Note:</strong> Cart notes are a simple, built-in alternative to cart attributes. They allow customers to add a single text note to their order. However, they don't support structured data like dropdowns, dates, or checkboxes.
+</div>
+
+### Frequently Asked Questions
+
+**Can I add cart attributes without coding?**
+
+Yes, by using Shopify apps from the App Store. Search for "cart attributes" or "cart fields" to find suitable options.
+
+**Will cart attributes show in order notifications?**
+
+Yes, cart attributes typically appear in order details and can be included in order notification emails.
+
+**Can cart attributes be required?**
+
+With custom development or certain apps, yes. The built-in cart note is optional by default.
+
+**Do cart attributes affect checkout?**
+
+Cart attributes are collected before checkout and don't modify the checkout process itself. For checkout modifications, you need Shopify Plus or specific apps.
