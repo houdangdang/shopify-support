@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Shopify Themes",
-  description: "Knowledge base for Verve themes on Shopify",
+  description: "Knowledge base for GirlElements themes on Shopify",
   base: '/shopify-support/',
 
   head: [
@@ -39,17 +39,28 @@ export default defineConfig({
           text: 'Theme Basics',
           collapsed: false,
           items: [
-            { text: 'Editing Your Theme', link: '/theme-basics/editing-theme' },
-            { text: 'Using Metafields', link: '/theme-basics/metafields' },
+            { text: 'Editing Your Theme', link: '/theme-basics/editing-your-theme' },
+            { text: 'Updating Your Theme', link: '/theme-basics/updating-theme' },
+            { text: 'Using Sections Responsibly', link: '/theme-basics/using-sections-responsibly' },
+            { text: 'SEO Best Practices', link: '/theme-basics/seo-best-practices' },
+            { text: 'Changing Default Theme Content', link: '/theme-basics/changing-default-theme-content' },
+            { text: 'Understanding Sections and Blocks', link: '/theme-basics/understanding-sections-and-blocks' },
             { text: 'Alternate Templates', link: '/theme-basics/alternate-templates' },
-            { text: 'Updating Theme', link: '/theme-basics/updating-theme' },
+            { text: 'Metafields and Metaobjects', link: '/theme-basics/metafields' },
+            { text: 'App Embeds and Blocks', link: '/theme-basics/app-embeds-and-blocks' },
+            { text: 'Combining Templates with Metafields', link: '/theme-basics/combining-alternate-templates-with-metafields' },
+            { text: 'Languages and Currencies', link: '/theme-basics/languages-and-currencies' },
             { text: 'Image Recommendations', link: '/theme-basics/image-recommendations' },
-            { text: 'Remove Powered by Shopify', link: '/theme-basics/remove-powered-by' }
+            { text: 'Remove Powered by Shopify', link: '/theme-basics/remove-powered-by' },
+            { text: 'Access Collaborator Code', link: '/theme-basics/access-collaborator-code' },
+            { text: 'Hiring a Shopify Expert', link: '/theme-basics/hiring-shopify-expert' },
+            { text: 'Content per Market', link: '/theme-basics/contextualizing-content-per-market' },
+            { text: 'B2B Features', link: '/theme-basics/b2b-features' }
           ]
         },
         {
           text: 'Configuration',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: 'General Settings', link: '/configuration/' },
             { text: 'Header', link: '/configuration/header' },
@@ -64,29 +75,25 @@ export default defineConfig({
             { text: 'Products Filtering', link: '/configuration/filtering' },
             { text: 'Cart', link: '/configuration/cart' },
             { text: 'Search', link: '/configuration/search' },
-            { text: 'Footer', link: '/configuration/footer' }
+            { text: 'Footer', link: '/configuration/footer' },
+            { text: 'Sections', link: '/configuration/sections' }
           ]
         },
         {
           text: 'Theme Specific Guides',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: 'Overview', link: '/theme-guides/' },
-            { text: 'Prestige', link: '/theme-guides/prestige' },
-            { text: 'Impact', link: '/theme-guides/impact' },
-            { text: 'Focal', link: '/theme-guides/focal' },
-            { text: 'Warehouse', link: '/theme-guides/warehouse' },
-            { text: 'Stretch', link: '/theme-guides/stretch' }
+            { text: 'Verve', link: '/theme-guides/verve' }
           ]
         },
         {
           text: 'Going Further',
-          collapsed: true,
+          collapsed: false,
           items: [
-            { text: 'Advanced Customizations', link: '/advanced/customizations' },
-            { text: 'Technical Documentation', link: '/advanced/technical-docs' },
-            { text: 'Using Apps', link: '/advanced/using-apps' },
-            { text: 'Internationalization', link: '/advanced/internationalization' }
+            { text: 'Advanced Customizations', link: '/advanced/advanced-customizations' },
+            { text: 'Advanced Guides', link: '/advanced/advanced-guides' },
+            { text: 'Using Apps', link: '/advanced/using-apps' }
           ]
         },
         {
@@ -104,7 +111,7 @@ export default defineConfig({
 
     footer: {
       message: 'Shopify Themes Documentation',
-      copyright: '© 2026 Verve. All rights reserved.'
+      copyright: '© 2026 GirlElements. All rights reserved.'
     },
 
     outline: {
