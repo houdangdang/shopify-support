@@ -4,7 +4,7 @@ Common questions for popular sections
 
 ## Slideshow
 
-The Slideshow (also known as carousel or banner) is a popular section that allows you to show one or multiple full-page images (and/or video; it is only available on our themes Prestige and Impact). A slideshow is typically found as the first section on the home page to create an impactful impression on your customers.
+The Slideshow (also known as carousel or banner) is a popular section that allows you to show one or multiple full-page images (and/or video; it is only available on our themes Verve). A slideshow is typically found as the first section on the home page to create an impactful impression on your customers.
 
 ### Adding a slideshow
 
@@ -100,3 +100,6 @@ It might be desirable to have different blogs when you want to share completely 
 
 **Recommended approach:**
 Use a single blog with tags for easier maintenance and better user experience. Tags allow customers to filter content while keeping everything in one place.
+
+
+---

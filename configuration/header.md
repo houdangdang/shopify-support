@@ -1,518 +1,369 @@
 # Header
-
 Learn more about sections in the header group: Header, Mega Menu, Announcement Bar...
+
 
 ## Mega-menu
 
+
 All our themes support mega-menu. Mega menus allow you to create rich menus with multi-columns and optional images.
 
-<img src="/public/assets/images/configuring/header/mega-menu.png" alt="Change Fonts" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
+<img src="/assets/images/configuring/header/mega-menu.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
 
 ### Best practices
 
-Before setting up mega-menus, here are some best practices to follow:
+<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
-- **Keep it simple:** Mega-menus can quickly become overwhelming if they contain too many items. Try to keep the number of columns to a maximum of 4-5.
-- **Use images sparingly:** While images can make your mega-menu more visually appealing, too many images can make it look cluttered. Use images only for your most important categories.
-- **Test on mobile:** Mega-menus are automatically converted to a simpler mobile menu on mobile devices. Make sure to test your mega-menu on mobile to ensure it looks good.
+ <p><strong>Do</strong></p>
+ <ul>
+  <li>Use mega-menu to show a large number of links organized in multiple columns.</li>
+  <li>Use mega-menu to show up to two promotional images.</li>
+  <li>Split your navigation into multiple mega-menu to avoid menus being too complex.</li>
+ </ul>
+
+</div>
+
+<div style="background-color: #ffebee; border-left: 4px solid #f44336; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+
+ <p><strong>Don't</strong></p>
+ <ul>
+  <li>For simpler navigation needs, use dropdown navigation without mega-menu. Mega-menus can create extra complexity for users.</li>
+  <li>Avoid more than 4-5 columns of links per mega-menu. If you need more links, consider splitting the navigation into multiple mega-menu, or try to re-think your navigation structure. For instance, consider grouping several links.</li>
+ </ul>
+
+</div>
+
 
 ### Setting up mega-menus
 
-Setting up mega-menus requires four steps:
 
-1. **Setting up menu navigation**
-2. **Creating the mega-menu**
-3. **Configuring the mega-menu**
-4. **Using mega-menu for multi-languages stores** (optional)
+Creating a mega-menu involves several steps. This guide will go through each one. We recommend you follow each step in the given order.
+
 
 #### Step 1: setting up menu navigation
 
-The first step is to create a navigation menu in Shopify admin. To do that:
 
-1. Open your Shopify admin
-2. Navigate to **Online Store > Navigation**
-3. Click on the menu you want to edit (usually "Main menu")
-4. Add menu items as needed
+Before creating the mega-menu, you must create the menu's structure. Mega-menus work best with three-level menus (for instance, "Shop" > "Home" > "Home Decor").
 
-<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Tip:</strong> You can create nested menu items by dragging and dropping menu items under other menu items. However, for mega-menus, you only need to create top-level menu items. The mega-menu will handle the nested items.
+<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+
+ <p>The menu you create must contain the entire navigation structure, including the first-level links. Said otherwise, you must only have a single navigation menu (if you create one new menu for each mega-menu, this won't work).</p>
+
 </div>
+
+
+
+<img src="/assets/images/configuring/header/shop-mega-menu-setup.png" alt="" style="max-height: 800px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
+
+Here is an example of how the mega-menu created for the "Shop" link looks like and how each level are related to each other:
+
+
+
+<img src="/assets/images/configuring/header/mega-menu-level.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
 
 #### Step 2: creating the mega-menu
 
-Once you have created your navigation menu, you need to create a mega-menu:
 
-1. Open the theme editor
-2. Navigate to the **Header** section
-3. Click on **"Add block"** and select **"Mega menu"**
-4. In the **"Menu item"** setting, select the menu item you want to turn into a mega-menu
+The second step involves creating a mega-menu:
+
+
+1/ Open the theme editor, **click on the "Header" section**, and **click on "Add mega-menu" button**:
+
+
+
+<img src="/assets/images/configuring/header/header-section.png" alt="" style="max-height: 100px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
+
+2/ The most important setting to fill is the "Menu item" setting. It **must match exactly **the name of the first-level links you want to create a mega-menu.
+
+
+
+<img src="/assets/images/configuring/header/menu-item-named.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
 
 <div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Important:</strong> You can only create one mega-menu per top-level menu item. If you want to create multiple mega-menus, you need to create multiple mega-menu blocks.
+
+ <p>A common mistake is entering a menu item that does not match any first-level links. If you do not see any mega-menu, double-check the menu item setting, and ensure it matches precisely a first level link.</p>
+
 </div>
+
 
 #### Step 3: configuring the mega-menu
 
-Once you have created a mega-menu block, you can configure it:
 
-**Adding columns:**
+After adding the mega-menu block to your header, you can customize it by adding images and configuring their position. This is entirely optional, and you can decide to show links only.
 
-1. Click on the mega-menu block
-2. Click on **"Add column"**
-3. Configure the column:
-   - **Heading:** The title of the column
-   - **Links:** The links to display in the column
-   - **Image:** An optional image to display at the top of the column
-
-You can add up to 5 columns per mega-menu.
-
-**Configuring links:**
-
-For each column, you can add links in two ways:
-
-- **Manual links:** You can manually add links by clicking on "Add link" and entering the link URL and title
-- **Automatic links:** You can automatically pull links from a menu by selecting a menu in the "Menu" setting
-
-<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Tip:</strong> Using automatic links is recommended if you have a lot of links, as it makes it easier to maintain your mega-menu.
-</div>
 
 #### Step 4: using mega-menu for multi-languages stores
 
-If your store is available in multiple languages, you need to translate your mega-menu for each language.
 
-**Translating menu items:**
+Mega-menus are compatible with multi-language stores but require an extra setup.
 
-Menu items are automatically translated if you use the [Translate & Adapt app](https://apps.shopify.com/translate-and-adapt) from Shopify.
 
-**Translating mega-menu content:**
+1/ Translate your menu in the translation app.
 
-To translate mega-menu content (such as column headings):
 
-1. Open the Translate & Adapt app
-2. Select the language you want to translate
-3. Click on **"Theme"**
-4. Find the mega-menu block you want to translate
-5. Translate the content
+2/ Once you have translated the menu, **go back** to the theme editor, **select the mega-menu** you have created, **click on the three dots**, and **select "Localize"**:
 
-## Navigation
 
-The navigation menu is the main menu displayed in your header. It allows customers to navigate through your store.
 
-### Creating a navigation menu
+<img src="/assets/images/configuring/header/mega-menu-multi-language.png" alt="" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
-To create a navigation menu:
 
-1. Open your Shopify admin
-2. Navigate to **Online Store > Navigation**
-3. Click on the menu you want to edit (usually "Main menu")
-4. Add menu items by clicking on **"Add menu item"**
-5. For each menu item, enter:
-   - **Name:** The text to display
-   - **Link:** The URL to link to
-6. Save your changes
+<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
-<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Note:</strong> You can create nested menu items by dragging and dropping menu items under other menu items. Most themes support up to 2 levels of nesting.
+ <p>You need to have the <a href="https://apps.shopify.com/translate-and-adapt">Shopify Translate & Adapt</a> free app installed on your store. If you are using a different translation app, reach the app's developer for instructions.</p>
+
 </div>
 
-### Configuring navigation in the theme
 
-Once you have created your navigation menu in Shopify admin, you need to configure it in the theme:
 
-1. Open the theme editor
-2. Navigate to the **Header** section
-3. In the **"Menu"** setting, select the menu you created
-
-### Navigation best practices
-
-- **Keep it simple:** Try to keep your main navigation to 5-7 items maximum
-- **Use clear labels:** Use clear and descriptive labels for your menu items
-- **Group related items:** Use nested menus or mega-menus to group related items
-- **Test on mobile:** Make sure your navigation works well on mobile devices
 
 ## Customer account
 
-The customer account section allows customers to access their account, view orders, and manage their information.
 
-### Enabling customer accounts
-
-To enable customer accounts:
-
-1. Open your Shopify admin
-2. Navigate to **Settings > Customer accounts**
-3. Select **"Accounts are optional"** or **"Accounts are required"**
-4. Save your changes
+Our themes are natively integrated into Shopify customer accounts. However, by default, customer accounts are disabled on Shopify. To learn more about enabling customer accounts on your store, [please refer to Shopify official documentation](https://help.shopify.com/en/manual/customers/customer-accounts/new-customer-accounts#set-up-customer-accounts).
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Note:</strong> If you select "Accounts are optional," customers can check out as guests or create an account. If you select "Accounts are required," customers must create an account to check out.
+
+ <p>Once enabled, the account link will appear in the header, either as a text or an icon, depending of the theme you are using and the settings you have selected. Please note that for size reasons on mobile, the customer account icon typically appears in the drawer menu. It is currently not possible to move the link outside the drawer menu. If you would like to change how customer accounts render on mobile, you can <a href="/shopify-support/theme-basics/hiring-shopify-expert">hire a developer</a>.</p>
+
 </div>
 
-### Configuring customer account in the theme
 
-Once you have enabled customer accounts, you can configure how they appear in your theme:
 
-1. Open the theme editor
-2. Navigate to the **Header** section
-3. Configure the **"Show account link"** setting
-
-### Customer account pages
-
-When customer accounts are enabled, the following pages are automatically created:
-
-- **Login page:** `/account/login`
-- **Register page:** `/account/register`
-- **Account page:** `/account`
-- **Order page:** `/account/orders/[order-id]`
-- **Addresses page:** `/account/addresses`
-
-These pages can be customized using the theme editor.
-
-### Classic vs. New customer accounts
-
-Shopify offers two types of customer accounts:
-
-| Type | Description | Availability |
-|------|-------------|--------------|
-| **Classic accounts** | Traditional account pages with limited customization | All plans |
-| **New customer accounts** | Modern account pages with full customization | Shopify Plus only |
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Important:</strong> Our themes support both classic and new customer accounts. However, new customer accounts offer more customization options and are recommended if you're on Shopify Plus.
-</div>
 
 ## Predictive search
 
-Predictive search (also called "live search" or "instant search") shows search results as customers type in the search bar, making it easier for them to find what they're looking for.
 
-### Enabling predictive search
+Predictive search shows suggested results as you type. It helps your customers refine their search without being redirected to a search results page, and quickly explore your store by seeing top results for suggested search terms, products, collections, and more.
 
-Predictive search is enabled by default in all our themes. To configure it:
 
-1. Open the theme editor
-2. Navigate to the **Header** section
-3. Configure the **"Search type"** setting:
-   - **Predictive search:** Shows results as customers type
-   - **Full page search:** Redirects to a full search page
+Search is entirely managed by Shopify, and the theme does not have any control over which results are exposed.
 
-### Configuring search results
 
-You can configure what appears in predictive search results:
+To configure the behavior of the search, please refer to the [official Shopify documentation](https://help.shopify.com/en/manual/online-store/storefront-search/predictive-search).
 
-**Product results:**
-- Show/hide product images
-- Show/hide product prices
-- Show/hide product vendor
-- Number of products to show
 
-**Collection results:**
-- Show/hide collections
-- Number of collections to show
 
-**Page results:**
-- Show/hide pages
-- Number of pages to show
-
-**Article results:**
-- Show/hide blog articles
-- Number of articles to show
-
-### Search performance
-
-Predictive search is powered by Shopify's search API, which is very fast. However, if you have a very large catalog (10,000+ products), you may want to limit the number of results shown to improve performance.
-
-<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Tip:</strong> We recommend showing 4-6 products, 2-3 collections, and 2-3 pages in predictive search results for optimal performance.
-</div>
-
-### Search customization
-
-You can customize the search experience further:
-
-- **Search placeholder:** Customize the placeholder text in the search bar
-- **Search button text:** Customize the text on the search button
-- **No results message:** Customize the message shown when no results are found
 
 ## Announcement bar
 
-The announcement bar is a banner that appears at the top of your site, above the header. It's perfect for displaying important messages, promotions, or announcements.
 
-### Adding an announcement bar
+An announcement bar allows you to efficiently announce short sentences, such as temporary promotions, free shipping guarantees, or temporary business holidays.
 
-To add an announcement bar:
 
-1. Open the theme editor
-2. Navigate to the **Header** section
-3. Click on **"Add block"** and select **"Announcement bar"**
-4. Configure the announcement:
-   - **Text:** The message to display
-   - **Link:** An optional link (the entire bar becomes clickable)
-   - **Background color:** The background color of the bar
-   - **Text color:** The text color
+### Managing messages
 
-### Multiple announcements
 
-You can add multiple announcement bars that rotate automatically:
+To add or remove messages to the announcement bar, open the theme editor, and click on the "Announcement bar" section in the header group. Existing messages will be visible below the section:
 
-1. Add multiple **"Announcement bar"** blocks
-2. Configure the **"Auto-rotate"** setting
-3. Set the **"Rotation speed"** (in seconds)
 
-<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Note:</strong> When multiple announcements are added, customers can manually navigate between them using arrow buttons.
+
+<img src="/assets/images/configuring/header/announcement-bar.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
+
+To add a new message, click on "Add message." To remove an existing message, select it, and click on the "Remove block" button to remove the message.
+
+
+### Hiding the section
+
+
+Sometimes (to prepare a new sale, for instance), hiding the section completely while keeping the messages can be desirable. To do that, open the theme editor and click on the small eye icon next to the section to hide it completely. To make it visible again, click again on the small eye icon.
+
+
+
+<img src="/assets/images/configuring/header/announcement-bar-hide.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
+
+### Section guidelines
+
+<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+
+ <p><strong>Do</strong></p>
+ <ul>
+  <li>Use short texts (make sure you try your store on mobile, where it is narrower).</li>
+  <li>Turn off the sticky option if possible (especially if you have a tall header that is also sticky, it can drastically reduce the readability of your store for users on small screens).</li>
+ </ul>
+
 </div>
 
-### Announcement bar best practices
+<div style="background-color: #ffebee; border-left: 4px solid #f44336; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
-- **Keep it short:** Announcement bars should be concise and to the point
-- **Use action-oriented language:** Use verbs like "Shop," "Save," or "Get"
-- **Make it clickable:** Add a link to drive traffic to a specific page
-- **Update regularly:** Keep your announcements fresh and relevant
-- **Test on mobile:** Make sure your announcement bar looks good on mobile devices
+ <p><strong>Don't</strong></p>
+ <ul>
+  <li>An announcement bar can be easy to miss due to its small size. Therefore, avoid using the announcement bar for critical information. Instead, use a bigger section in the page.</li>
+ </ul>
 
-### Hiding the announcement bar
+</div>
 
-Customers can dismiss the announcement bar by clicking the close button (if enabled). The announcement bar will remain hidden for that customer until:
 
-- They clear their browser cookies
-- You change the announcement text
-- 30 days have passed
+
+
 
 ## Newsletter popup
 
-The newsletter popup is a modal that appears on your site to encourage visitors to subscribe to your newsletter.
 
-### Enabling the newsletter popup
+Maestrooo themes natively integrate with Shopify customer list to allow you to gather email addresses for marketing purposes. To configure the newsletter popup:
 
-To enable the newsletter popup:
 
-1. Open the theme editor
-2. Navigate to **Theme settings > Popup**
-3. Enable the **"Show popup"** setting
-4. Configure the popup:
-   - **Title:** The popup title
-   - **Content:** The popup message
-   - **Image:** An optional image to display
-   - **Delay:** How long to wait before showing the popup (in seconds)
-   - **Frequency:** How often to show the popup
+1/ **Open the theme editor**, and **click** on the "Newsletter popup" section:
 
-### Popup frequency options
 
-| Option | Description |
-|--------|-------------|
-| **Every visit** | Show the popup on every visit |
-| **Once per session** | Show the popup once per browser session |
-| **Once per day** | Show the popup once per day |
-| **Once per week** | Show the popup once per week |
-| **Once only** | Show the popup only once (until cookies are cleared) |
 
-<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Tip:</strong> We recommend using "Once per week" or "Once only" to avoid annoying your visitors.
-</div>
+<img src="/assets/images/configuring/header/file-c5jiq6X8ft.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
-### Newsletter integration
 
-The newsletter popup integrates with Shopify's built-in customer list. When someone subscribes:
 
-1. They're added to your customer list
-2. They're marked as accepting marketing
-3. You can send them marketing emails from Shopify admin
+2/ Change settings such as wording, delay, or apparition logic.
 
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Important:</strong> Make sure you comply with email marketing laws (like GDPR and CAN-SPAM) when collecting email addresses. Always include an unsubscribe link in your emails.
-</div>
 
-### Popup best practices
+### Hiding the newsletter popup
 
-- **Offer value:** Give visitors a reason to subscribe (like a discount code)
-- **Keep it simple:** Don't ask for too much information
-- **Use compelling copy:** Explain the benefits of subscribing
-- **Add an image:** Images make popups more visually appealing
-- **Test timing:** Experiment with different delays to find what works best
-- **Respect dismissals:** Don't show the popup too frequently
+
+To hide the newsletter popup, click on the small eye icon next to the section:
+
+
+
+<img src="/assets/images/configuring/header/file-jWGUUg7QhH.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
+
+
+### FAQ
+
+- Does it integrate with third-party systems like Klaviyo or MailChimp? The theme is agnostic to any third-party marketing system. Instead, it simply creates a customer in Shopify customers list with a standardized tag. The customer list can then be synchronized automatically to third-party systems by using a compatible app. If you are using Klaviyo, [use the official Klaviyo app](https://apps.shopify.com/klaviyo-email-marketing). If you are using MailChimp, [use the official MailChimp app](https://apps.shopify.com/mailchimp). If you use a different marketing system, please contact their support directly to check if they natively integrate with Shopify.
+- I don't receive any email when I subscribe; why? Shopify is not an email marketing system, which means it does not have features to send welcome emails or create marketing campaigns automatically. It simply helps to collect emails into a unified customer list. You need to use a marketing system such as Klaviyo or MailChimp to send automated emails. If your needs are essential, you can also use the [Shopify Email app](https://apps.shopify.com/shopify-email) developed and maintained by Shopify.
+- Can I collect extra fields? Our theme only allows you to gather an email address. You need to hire a developer if you wish to pick extra fields (such as names or personal information). However, studies show that the more information you request, the lower the subscription rate (or filled with fake information that won't bring any value). Therefore, we recommend you only collect emails for higher subscription rates.
+- Can I add images or videos inside the popup? Our themes do not support this. Maestroo has designed the newsletter popup to look minimalistic and reduce distraction. If you want more control over your newsletter popup's appearance, you can use a dedicated app like [PixelPop](https://apps.shopify.com/popups-promos-banners-pixelpop).
+
+
+
 
 ## Privacy banner / cookie banner
 
-The privacy banner (also called a cookie banner) is a notice that appears at the bottom of your site to inform visitors about your use of cookies and comply with privacy regulations like GDPR.
 
-### Enabling the privacy banner
+Privacy banner allows buyers to configure their privacy preferences regarding local regulations, such as GDPR in Europe or CCPA in California.
 
-To enable the privacy banner:
 
-1. Open the theme editor
-2. Navigate to **Theme settings > Privacy banner**
-3. Enable the **"Show privacy banner"** setting
-4. Configure the banner:
-   - **Message:** The privacy notice text
-   - **Accept button text:** The text on the accept button
-   - **Policy link:** Link to your privacy policy page
-   - **Position:** Top or bottom of the page
+There are two ways to make your store compliant:
 
-### Privacy regulations
+- **Recommended**: you can use the native Shopify privacy popup.
+- **Deprecated**: You can use the theme's built-in privacy popup.
 
-Different regions have different privacy requirements:
+Historically, Shopify did not offer native features, so the theme popup was the recommended approach. However, **we now strongly encourage merchants to turn off the theme's banner and use Shopify's native popup instead**. The theme's built-in popup is deprecated and will be removed in future releases of our themes.
 
-| Region | Regulation | Requirements |
-|--------|-----------|--------------|
-| **European Union** | GDPR | Must obtain consent before using non-essential cookies |
-| **California** | CCPA | Must provide notice and opt-out option |
-| **Canada** | PIPEDA | Must obtain consent for collecting personal information |
+<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
-<div style="background-color: #ffebee; border-left: 4px solid #f44336; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Warning:</strong> Privacy laws are complex and vary by region. We recommend consulting with a lawyer to ensure your privacy banner complies with all applicable laws. This theme feature is provided as a tool, but you are responsible for legal compliance.
+ <p>Contrary to the theme's privacy banner, the Shopify native one integrates with many more privacy settings and is updated when local regulations change. This ensures that you stay compliant even when regulations evolve without having to update your theme.</p>
+
 </div>
 
-### Creating a privacy policy
 
-To create a privacy policy:
+### Enabling the Shopify native popup
 
-1. Open your Shopify admin
-2. Navigate to **Settings > Legal**
-3. Click on **"Privacy policy"**
-4. Add your privacy policy content
-5. Save your changes
+- Before using the native Shopify privacy banner, disable the theme's one. To do that, open the **Theme Editor**, and click on the eye icon next to the Privacy banner section.
 
-Shopify provides a template privacy policy that you can customize to fit your needs.
 
-### Banner customization
+<img src="/assets/images/configuring/header/file-oESMEomsjq.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
-You can customize the privacy banner:
 
-- **Background color:** The background color of the banner
-- **Text color:** The text color
-- **Button style:** The style of the accept button
-- **Position:** Show at the top or bottom of the page
-- **Animation:** Slide in or fade in
+- Then, [follow Shopify instructions](https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/privacy-settings#add-a-cookie-banner) to enable privacy popup in your privacy settings.
+<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
+
+ <p>You must keep only one popup active at a time. If you use the native Shopify privacy banner (as recommended), you <strong>must</strong> ensure the theme's banner is turned off. Failing to do so will cause incorrect privacy settings to be saved or cause the banner to show multiple times.</p>
+
+</div>
+
+
+### FAQ
+
+
+#### Privacy banner will show over and over even when accepted/declined
+
+
+If you use the theme's built-in banner, turn it off and use the Shopify native privacy banner instead. Ensure that you have only one banner enabled at a time.
+
+
+If the problem persists, reach out to Shopify support, as Shopify controls the privacy banner logic.
+
+
+#### What is the difference between the theme banner and Shopify native one?
+
+
+While the theme banner uses the Shopify privacy API under the hood, it does not have access to all the data offered by the Shopify native banner. It also won't be updated automatically as soon as local regulations evolve. For those reasons, merchants are strongly encouraged to turn off the theme privacy banner and use the Shopify one instead.
+
+
+#### Privacy banner won't show even when enabled
+
+
+The privacy banner will only show if the buyer lives in an area subject to local regulations. For instance, a customer living in a country that is not affected by such regulations won't see the banner, even though it is enabled. If you are using a VPN, you might also not see the banner, as this will trick geographical detection.
+
+
+Similarly, Shopify will remember the user preferences. If a user has accepted or denied privacy settings, the banner won't be shown again.
+
+
+#### Privacy banner won't show despite matching all conditions
+
+
+If you believe the privacy banner has been correctly set but still don't see it when you believe you should, you must reach out to Shopify support directly. Whether the banner will show is controlled directly by Shopify system, and the theme does not have access to the logic controlling this.
+
+
+
+
 
 ## Header logo
 
-The header logo is your brand's visual identity in the header. It's one of the first things customers see when they visit your store.
 
-### Adding a logo
+All our themes support displaying your logo in the header. Maestrooo themes support two different logos that we recommend you upload:
 
-To add a logo to your header:
+- Standard logo
+- Transparent logo
 
-1. Open the theme editor
-2. Navigate to the **Header** section
-3. In the **"Logo"** setting, click **"Select image"**
-4. Upload your logo image
-5. Save your changes
+The transparent logo is used when the header is configured to be transparent. Typically, you will need to have a logo in two different colors to ensure it always remains visible.
 
-### Logo requirements
 
-For best results, your logo should meet these requirements:
+1/ To upload a logo, open the theme editor and click on the "Header" section:
 
-| Requirement | Recommendation |
-|-------------|----------------|
-| **Format** | PNG with transparent background (or SVG) |
-| **Size** | 200-400px wide |
-| **Aspect ratio** | Horizontal logos work best |
-| **File size** | Under 100KB for optimal performance |
 
-<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Tip:</strong> Use a PNG file with a transparent background so your logo looks good on any background color.
-</div>
 
-### Logo sizing
+<img src="/assets/images/configuring/header/file-z1s3DPHwPC.png" alt="" style="max-height: 130px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
-You can control the size of your logo:
 
-1. In the **Header** section
-2. Adjust the **"Logo width"** setting
-3. The height will automatically adjust to maintain the aspect ratio
 
-**Recommended sizes:**
+2/ By default, the standard logo will reuse your brand logo, but you can change it by clicking on the "Select" button:
 
-- **Desktop:** 150-200px wide
-- **Mobile:** 100-150px wide
 
-### Alternative logo for transparent header
 
-If you use a transparent header, you may want to use a different logo that looks better on light backgrounds:
+<img src="/assets/images/configuring/header/default-logo.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
-1. In the **Header** section
-2. Enable **"Transparent header"**
-3. Upload a different logo in the **"Transparent header logo"** setting
+
+
+3/ To upload a transparent logo, still in the header section, scroll down until the *Transparent header *category to upload your transparent logo
+
+
+
+#### 
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Note:</strong> The transparent header logo is only shown when the transparent header is active (usually on the home page).
+
+ Best practices
+ <ul>
+  <li>The standard and transparent logo must have the same dimensions.</li>
+  <li>The logo's dimensions must be twice the visual size to ensure good quality on a high-resolution screen. For instance, if you select "200px" as the image width, the logo image you upload should be 400px wide.</li>
+  <li>For best results, use a horizontal logo. We do not recommend square, vertical, or round images, as they will make your header look big.</li>
+ </ul>
+
 </div>
 
-### Text logo
 
-If you don't have a logo image, you can use text instead:
-
-1. In the **Header** section
-2. Leave the **"Logo"** setting empty
-3. Your store name will automatically appear as text
-
-You can customize the text logo:
-
-- **Font:** Choose from available fonts
-- **Size:** Adjust the text size
-- **Color:** Change the text color
-
-## Transparent header
-
-The transparent header is a design feature that makes your header transparent, allowing it to overlay on top of your hero image or slideshow.
-
-### Enabling transparent header
-
-To enable the transparent header:
-
-1. Open the theme editor
-2. Navigate to the **Header** section
-3. Enable the **"Transparent header"** setting
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Important:</strong> The transparent header only works on pages that have a full-width section at the top (like a slideshow or image banner). It won't appear on other pages.
-</div>
-
-### Configuring transparent header
-
-When the transparent header is enabled, you can configure:
-
-**Colors:**
-- **Text color:** The color of text and icons in the transparent header
-- **Background color on scroll:** The background color when the user scrolls down
-
-**Logo:**
-- **Transparent header logo:** An optional alternative logo to use with the transparent header
-
-**Behavior:**
-- **Show on home page only:** Only show the transparent header on the home page
-- **Show on all pages:** Show the transparent header on all pages with a full-width top section
-
-### Design best practices
-
-When using a transparent header:
-
-- **Use high-contrast images:** Make sure your hero image has enough contrast for the header text to be readable
-- **Test with different images:** Test your transparent header with different hero images to ensure it always looks good
-- **Provide an alternative logo:** If your regular logo doesn't work well on light backgrounds, upload an alternative logo
-- **Consider text color:** White text works best on dark images, while dark text works best on light images
-
-### Transparent header on specific pages
-
-By default, the transparent header appears on all pages with a full-width top section. To control which pages show the transparent header:
-
-1. Open the theme editor
-2. Navigate to the page you want to customize
-3. In the first section (usually a slideshow or image banner), enable or disable the **"Use transparent header"** setting
-
-<div style="background-color: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Tip:</strong> The transparent header works best with full-width hero images or slideshows. It may not look good with other types of sections.
-</div>
-
-### Troubleshooting
-
-**The transparent header isn't showing:**
-- Make sure you have a full-width section at the top of the page
-- Check that the **"Use transparent header"** setting is enabled in that section
-- Verify that the **"Transparent header"** setting is enabled in the Header section
-
-**The text is hard to read:**
-- Adjust the **"Text color"** setting in the Header section
-- Use a darker or lighter hero image
-- Add a text overlay to your hero image to improve contrast
-- Upload an alternative logo that works better on your hero image background
+---

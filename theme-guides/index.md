@@ -20,4 +20,3 @@ Built for large catalogs. Features:
 | Video support | ✓ |
 | Quick view | ✓ |
 | Color swatches | ✓ |
-| Size chart | ✓ |

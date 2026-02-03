@@ -9,7 +9,7 @@ Our themes offer powerful search functionalities powered by Shopify's search fun
 - **Search page:** if customers click a view more button in the predictive search, they are redirected to a dedicated search page. Search pages work like collections, and your customers can refine the search by using filtering.
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-  <strong>Note:</strong> Predictive search is currently only supported in some languages. You can find a <a href="https://shopify.dev/docs/api/ajax/reference/predictive-search" target="_blank">list of supported languages in Shopify documentation</a>. Specifically, most Asian languages, such as Japanese or Korean, do not currently support predictive search. If you wish to have support for your language, we recommend you reach Shopify support.
+  <strong>Note:</strong> Predictive search is currently only supported in some languages. You can find a <a href="https://shopify.dev/docs/api/ajax/reference/predictive-search#supported-languages" target="_blank">list of supported languages in Shopify documentation</a>. Specifically, most Asian languages, such as Japanese or Korean, do not currently support predictive search. If you wish to have support for your language, we recommend you reach Shopify support.
 </div>
 
 ### Using Search & Discovery app
@@ -66,3 +66,6 @@ The full search results page works similarly to collection pages:
     <li>Set up filters to help customers narrow down results</li>
   </ul>
 </div>
+
+
+---

@@ -4,7 +4,7 @@
 
 Cart attributes are a Shopify feature that allows you to gather extra information about an order, such as a delivery day, a gift message, or similar information.
 
-Our theme does not allow adding arbitrary cart attributes, as each store has its own requirements and specific information to gather. Consequently, to gather extra cart information, you must either install an app (you can reach Shopify support for some recommendations) or [hire a developer](https://support.GirlElements.com/article/698-hiring-a-shopify-expert-for-customization). Our support team does not offer coding support to do that.
+Our theme does not allow adding arbitrary cart attributes, as each store has its own requirements and specific information to gather. Consequently, to gather extra cart information, you must either install an app (you can reach Shopify support for some recommendations) or [hire a developer](/theme-basics/hiring-shopify-expert). Our support team does not offer coding support to do that.
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
   <strong>Note:</strong> Cart attributes are different from product options or checkout fields. They are custom fields that appear on the cart page to collect additional information before checkout.
@@ -78,3 +78,6 @@ With custom development or certain apps, yes. The built-in cart note is optional
 **Do cart attributes affect checkout?**
 
 Cart attributes are collected before checkout and don't modify the checkout process itself. For checkout modifications, you need Shopify Plus or specific apps.
+
+
+---

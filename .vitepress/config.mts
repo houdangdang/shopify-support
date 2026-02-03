@@ -36,6 +36,22 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Configuration',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/configuration/' },
+            { text: 'General Settings', link: '/configuration/general-settings' },
+            { text: 'Header', link: '/configuration/header' },
+            { text: 'Collections', link: '/configuration/collections' },
+            { text: 'Footer', link: '/configuration/footer' },
+            { text: 'Pages', link: '/configuration/pages' },
+            { text: 'Products', link: '/configuration/products' },
+            { text: 'Cart', link: '/configuration/cart' },
+            { text: 'Search', link: '/configuration/search' },
+            { text: 'Sections', link: '/configuration/sections' }
+          ]
+        },
+        {
           text: 'Theme Basics',
           collapsed: false,
           items: [
@@ -58,27 +74,7 @@ export default defineConfig({
             { text: 'B2B Features', link: '/theme-basics/b2b-features' }
           ]
         },
-        {
-          text: 'Configuration',
-          collapsed: false,
-          items: [
-            { text: 'General Settings', link: '/configuration/' },
-            { text: 'Header', link: '/configuration/header' },
-            { text: 'Mega Menu', link: '/configuration/mega-menu' },
-            { text: 'Transparent Header', link: '/configuration/transparent-header' },
-            { text: 'Products', link: '/configuration/products' },
-            { text: 'Color Swatches', link: '/configuration/color-swatches' },
-            { text: 'Custom Badges', link: '/configuration/custom-badges' },
-            { text: 'Size Chart', link: '/configuration/size-chart' },
-            { text: 'Variant Images', link: '/configuration/variant-images' },
-            { text: 'Collections', link: '/configuration/collections' },
-            { text: 'Products Filtering', link: '/configuration/filtering' },
-            { text: 'Cart', link: '/configuration/cart' },
-            { text: 'Search', link: '/configuration/search' },
-            { text: 'Footer', link: '/configuration/footer' },
-            { text: 'Sections', link: '/configuration/sections' }
-          ]
-        },
+        
         {
           text: 'Theme Specific Guides',
           collapsed: false,
@@ -115,7 +111,7 @@ export default defineConfig({
     },
 
     outline: {
-      level: [2, 3],
+      level: [2, 4],
       label: 'On this page'
     },
 

@@ -64,3 +64,6 @@ All of our themes allow you to upload a favicon image without modifying the code
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
   <strong>Note:</strong> Some browsers (like Safari) may not always display favicons consistently. This is a browser behavior, not a theme issue.
 </div>
+
+
+---
