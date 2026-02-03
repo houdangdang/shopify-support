@@ -37,7 +37,7 @@ Sections contain blocks that can be:
 Explore configuration topics:
 
 - [Header Configuration](/configuration/header)
-- [Mega Menu Setup](/configuration/mega-menu)
+- [Mega Menu Setup](/configuration/header#mega-menu)
 - [Product Settings](/configuration/products)
 - [Collection Settings](/configuration/collections)
 - [Cart Settings](/configuration/cart)
