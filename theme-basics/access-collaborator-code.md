@@ -4,6 +4,8 @@ A collaborator code is a 4-digit code that allows our support team to send an in
 
 Starting from 2024, this 4-digit code will become mandatory for every new store. We recommend you fill out the collaborator code to improve problem resolution time when reaching our support.
 
-To find your collaborator code, open your Shopify admin, click on "Settings," then "Users and permissions", and copy the collaborator code found in the "Collaborators" box.
+To find your collaborator code, open your Shopify admin, click on **"Settings"**, then **"Users > Security"**, and copy the collaborator code found in the **"Collaborators"** box.
 
 The video below will go through the steps:
+
+<img src="/assets/images/theme-basics/access-collaborator-code.gif" alt="Access Collaborator Code" style="max-height: 800px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">

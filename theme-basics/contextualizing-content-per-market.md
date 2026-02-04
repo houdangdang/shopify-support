@@ -1,16 +1,32 @@
 # Contextualizing content per market
 
-## Changing content per market
+Shopify Market is a powerful way to customize your store for different countries. You can sell in multiple languages and currencies and change your content based on the country.
+
+By using market contextualization, you can achieve things such as:
+
+ - Using a different slideshow image for one country
+
+ - Featuring a different product on the home page for one market
+
+ - Changing the featured collection on a section for one market
+
+Before using market contextualization, you must have created at least two markets. You can learn more about [adding markets in Shopify documentation](https://help.shopify.com/en/manual/international/managing#add-a-market).
+
+### Changing content per market
 
 To edit a section per market, open the Theme Editor, and select the market you want to change in the market picker at the top of the editor (Shopify will show all the markets you have created):
 
+<img src="/assets/images/theme-basics/contextualizing-content-per-market-1.png" alt="image" style="max-height: 450px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+
 Once you have selected a market, you can edit the content of one or multiple sections. If a block or a section has been changed, a small green icon will be visible next to the element that has been contextualized:
+
+<img src="/assets/images/theme-basics/contextualizing-content-per-market-2.png" alt="image" style="max-height: 210px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 To learn more about market contextualization, [refer to Shopify official documentation](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/store-contextualization).
 
-## FAQ
+### FAQ
 
-### I changed the content, but it does not reflect in my live store
+#### I changed the content, but it does not reflect in my live store
 
 One important thing to understand about contextualizing a market is that once you create a contextualization for a given market, the page will evolve independently from the default market. Simply put any changes to the default market won't be reflected in a contextualized market unless you apply the change to the contextualized market.
 
@@ -18,13 +34,14 @@ This is a frequent source of confusion for merchants who do not understand why t
 
 Consequently, if your changes are not visible on the live store, check that you have also applied the change to all the markets.
 
-### What is the difference between translation and contextualization
+#### What is the difference between translation and contextualization
 
 To change content for a given market, you can either do it in the theme editor through contextualization, or in a translation app such as the [Translate & Adapt app](https://apps.shopify.com/translate-and-adapt). There are, however, some fundamental differences between the two.
 
-- Translation: translating the section content is the recommended approach if you want to simply translate the content into multiple languages. It won't create contextualized templates and will avoid all the complexities involved in contextualization, such as content not showing.
-- Contextualization: contextualization is useful when you want to create a different experience based on the market, such as adding/removing sections based on the country, or do larger scale changes that involve more than just translating. We recommend to limit the usage of contextualization, as it makes it harder to manage the store.
+ - Translation: translating the section content is the recommended approach if you want to simply translate the content into multiple languages. It won't create contextualized templates and will avoid all the complexities involved in contextualization, such as content not showing.
 
-### Can I delete a contextualization?
+ - Contextualization: contextualization is useful when you want to create a *different experience *based on the market, such as adding/removing sections based on the country, or do larger scale changes that involve more than just translating. We recommend to limit the usage of contextualization, as it makes it harder to manage the store.
 
-If you created a contextualization and would like to revert to the original content, [please refer to the official Shopify documentation](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/store-contextualization).
+#### Can I delete a contextualization?
+
+If you created a contextualization and would like to revert to the original content, [please refer to the official Shopify documentation](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/store-contextualization#resetting-your-context-to-default).
