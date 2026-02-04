@@ -37,8 +37,6 @@ To configure product page content, click on the "Add block" button in the "Produ
 You can also remove or re-order existing blocks. [Learn more about managing blocks](https://prestige-theme.helpscoutdocs.com/article/474-understanding-sections-and-blocks).
 
 
----
-
 
 
 ## Product ratings / reviews
@@ -63,7 +61,7 @@ You can show ratings right on product listings (collection, home pages...). Our 
 
 
 
-<img src="/assets/images/configuring/products/product-ratings-reviews-1.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/product-ratings-reviews-1.png" alt="" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -72,12 +70,12 @@ To enable rating on listing pages, follow the steps shown below:
 
 ### Showing reviews on product pages
 
+Showing reviews on product pages
+To show reviews on your product page, open the theme editor and navigate to the product page. In the "Product page" section, click on "Product meta" and turn on "Show product rating". Re-order the block to your desired position.
 
-To show reviews on your product page, open the theme editor and navigate to the product page. In the "Product page" section, click on "Add block" and select "Rating". Re-order the block to your desired position.
 
 
-
-<img src="/assets/images/configuring/products/product-ratings-reviews-2.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/product-ratings-reviews-2.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
@@ -96,7 +94,6 @@ To show reviews on your product page, open the theme editor and navigate to the 
 It is possible to hide the rating on the listing page if the product contains no reviews by turning off the "Show if no reviews" setting.
 
 
----
 
 
 
@@ -107,7 +104,7 @@ Color swatches are a powerful feature allowing you to show color options with co
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-1.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-1.png" alt="" style="max-height: 100px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -186,7 +183,7 @@ For instance, here is an example mapping that allows displaying the color [#ff00
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-4.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-4.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 <div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
@@ -217,7 +214,7 @@ For answering such use cases, the theme allows you to map a color name to an ima
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-5.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-5.png" alt="" style="max-height: 150px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -242,7 +239,7 @@ For answering such use cases, the theme allows you to map a color name to an ima
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-7.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-7.png" alt="" style="max-height: 250px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -274,7 +271,7 @@ To do that, follow the steps below:
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-8.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-8.png" alt="" style="max-height: 350px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -282,7 +279,7 @@ To do that, follow the steps below:
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-9.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-9.png" alt="" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -290,7 +287,7 @@ To do that, follow the steps below:
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-10.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-10.png" alt="" style="max-height: 100px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -407,8 +404,6 @@ If your store is available in multiple languages, you must translate the mapping
 - Do color swatches reduce performance? The theme tries to optimize color swatches as much as possible. However, if you have products with a lot (20+) color options, we recommend turning off swatches on collection pages.
 - Can I show variant images instead of swatches? Instead of showing color swatches, you can instead show variant images for colors. [Learn more about this feature](//support.maestrooo.com/article/767-variant-image-for-color-options).
 
----
-
 
 
 ## Variant image for color options
@@ -464,8 +459,6 @@ Once you are fulfilling those two conditions:
 <img src="/assets/images/configuring/products/variant-image-for-color-options-5.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
-
----
 
 
 
@@ -539,8 +532,6 @@ Then, in the Product page section, click on "Add block" and select the "Badges" 
 
 
 
----
-
 
 
 ## Tabs and accordions
@@ -565,7 +556,7 @@ We can separate extra content into two categories:
 - Information that is the same for every product (for instance, shipping information).
 - Information that is unique to each product (for instance, ingredients).
 
-Maestrooo themes allow you to do both, although the instructions differ. This article details both approaches; please refer to the correct instruction.
+GirlElements themes allow you to do both, although the instructions differ. This article details both approaches; please refer to the correct instruction.
 
 
 ### Adding the same content for every product
@@ -695,8 +686,6 @@ Once everything is set up, your metafield should look like this (of course, adju
 12/ Save the product, and repeat the other products' process.
 
 
----
-
 
 
 ## Variant images set
@@ -785,8 +774,6 @@ The screencast below summarizes the different steps:
 - How to show an image for every variant? If there is one or multiple images that you do want to show for every variant, simply do not set any Alt tag with the # character.
 - Is it possible to show an image set based on multiple options? No. You can only have an image set for one option only.
 - Is it working with multi-languages? Because this approach relies on Alt tags, which are currently not translatable, this feature won't work if you use multi-languages. If you have such problems, we recommend you rely on an app [such as this one](https://apps.shopify.com/variant-image-automator) (we do not provide support for apps, please reach the app developers if you are facing any issues). You can also use the "[product variation](https://prestige-theme.helpscoutdocs.com/article/426-product-variations-linked-products)" feature instead, which allows you to link different products.
-
----
 
 
 
@@ -909,8 +896,6 @@ Product variations / linked products don't work with native color swatches. Nati
 If you are using colors for product variations, the only way to configure color swatches is by using the config-based approach for color swatches. To configure color swatch config, open the theme editor, navigate to general settings, click on "Color swatches" category, and fill in the configuration.
 
 
----
-
 
 
 ## Combined listing app
@@ -950,8 +935,6 @@ Combined listing offers a native solution to having different product pages by c
 
 Unfortunately, Shopify currently restricts this app to Plus merchants.
 
-
----
 
 
 
@@ -1227,8 +1210,6 @@ To do that, follow the steps below:
   - Option 1: you can use bulk editing to assign the same metafield to multiple products. [Learn more about bulk editing](https://help.shopify.com/en/manual/custom-data/metafields/bulk-edit-metafields).
   - Option 2: create two product templates: one for skirts and one for shirts. Then, statically assign the skirt size chart to the skirt template and the shirt size chart to the shirt template. [Learn more about templates.](https://prestige-theme.helpscoutdocs.com/article/464-understanding-and-managing-alternate-templates)
 
----
-
 
 
 ## Inventory / urgency bar
@@ -1240,7 +1221,7 @@ To do that, follow the steps below:
 </div>
 
 
-Maestrooo themes allows you to display the inventory you have for a given variant. This feature can increase conversion by creating a feeling of urgency for buyers. However, displaying your stock can sometimes be harmful as it allows your competitors to know how many units you have in inventory. Ultimately, we recommend you do A/B testing and measure what works best for your business.
+GirlElements themes allows you to display the inventory you have for a given variant. This feature can increase conversion by creating a feeling of urgency for buyers. However, displaying your stock can sometimes be harmful as it allows your competitors to know how many units you have in inventory. Ultimately, we recommend you do A/B testing and measure what works best for your business.
 
 
 ### Showing/hiding inventory
@@ -1285,8 +1266,6 @@ By default, the theme will always show the inventory in green (for instance, "3 
 Configured like this means that the message will be displayed in red if the inventory is two or less. If above 2, the standard message will display.
 
 
----
-
 
 
 ## On-sale products and sale badges
@@ -1325,8 +1304,6 @@ This protects you from unknowingly violating the EU Price Indication Directive. 
 
 You can find more information in Shopify's official documentation by [clicking here](https://changelog.shopify.com/posts/derived-compare-at-prices-are-now-hidden-in-europe-for-compliance-with-the-european-price-indication-directive). If you need further assistance on this, please reach Shopify support directly.
 
-
----
 
 
 
@@ -1371,8 +1348,6 @@ On desktop, some of our themes allow us to show product media as a grid rather t
 
 If you wish to use autoplay for product media on desktop, use a carousel layout for your product media.
 
-
----
 
 
 
@@ -1467,8 +1442,6 @@ If performance is your priority, consider disabling this feature in your store. 
 </div>
 
 
----
-
 
 
 ## Related and complementary products
@@ -1523,8 +1496,6 @@ Related products display below the main product page section as a standalone sec
 - Products do not appear: if some products you have selected do not, ensure [they are eligible](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations#product-recommendation-requirements). Especially, free or sold-out products won't appear as recommendations (this is a Shopify limitation that can't be lifted on our end).
 - Can we automatically select complementary products? As of today, only related products can be automatically selected. If you would like to have automatic complementary products, we recommend you to contact Shopify support to suggest them this improvement.
 
----
-
 
 
 ## Pre-order template
@@ -1556,8 +1527,6 @@ To assign a template, navigate to a resource in the Shopify admin (such as a pro
 
 </div>
 
-
----
 
 
 
@@ -1610,8 +1579,6 @@ The theme automatically shows a "Sold out" badge on the collection and product p
 
 </div>
 
-
----
 
 
 

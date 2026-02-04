@@ -214,7 +214,7 @@ Sometimes (to prepare a new sale, for instance), hiding the section completely w
 ## Newsletter popup
 
 
-Maestrooo themes natively integrate with Shopify customer list to allow you to gather email addresses for marketing purposes. To configure the newsletter popup:
+GirlElements themes natively integrate with Shopify customer list to allow you to gather email addresses for marketing purposes. To configure the newsletter popup:
 
 
 1/ **Open the theme editor**, and **click** on the "Newsletter popup" section:
@@ -324,7 +324,7 @@ If you believe the privacy banner has been correctly set but still don't see it 
 ## Header logo
 
 
-All our themes support displaying your logo in the header. Maestrooo themes support two different logos that we recommend you upload:
+All our themes support displaying your logo in the header. GirlElements themes support two different logos that we recommend you upload:
 
 - Standard logo
 - Transparent logo

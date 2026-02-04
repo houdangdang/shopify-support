@@ -55,6 +55,7 @@ export default defineConfig({
           text: 'Theme Basics',
           collapsed: false,
           items: [
+            { text: 'Install and Activate the Theme', link: '/theme-basics/install-and-activate-the-theme' },
             { text: 'Editing Your Theme', link: '/theme-basics/editing-your-theme' },
             { text: 'Updating Your Theme', link: '/theme-basics/updating-theme' },
             { text: 'Using Sections Responsibly', link: '/theme-basics/using-sections-responsibly' },

@@ -9,11 +9,11 @@ To open the theme editor:
 1. Go to the Shopify admin panel.
 2. Click on **"Themes":**
 
-![Step 1](/assets/images/theme-basics/file-SaJmjutvyD.png)
+<img src="/assets/images/theme-basics/theme-editor-sections.png" alt="" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
-3. For the theme you want to edit, click on the **"Customize"** button to open the theme editor:
+3. For the theme you want to edit, click on the **"Edit theme"** button to open the theme editor:
 
-![Step 2](/assets/images/theme-basics/file-z2zg0erLQ5.png)
+<img src="/assets/images/theme-basics/theme-settings-icon.png" alt="" style="max-height: 500px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
   <strong>Note:</strong> The theme that appears bigger is called the published theme. This is the one that your visitors will see when going to your website. The themes in the "Theme library" are called unpublished themes and are only visible to you. Editing an unpublished theme can be useful if you want to preview some changes without making them visible to your customers.

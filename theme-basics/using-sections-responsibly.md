@@ -21,7 +21,7 @@ Here are some limits you might come across:
 
 ## Do not fight the theme
 
-Maestrooo themes have been designed and developed by a team of e-commerce veterans with over ten years of experience. If things have been done a given way, this is for a reason.
+GirlElements themes have been designed and developed by a team of e-commerce veterans with over ten years of experience. If things have been done a given way, this is for a reason.
 
 While some design elements or features might not match your requirements, we highly encourage you to give it a try. It might work better than you anticipated.
 
@@ -29,7 +29,7 @@ While some design elements or features might not match your requirements, we hig
   <strong>Note:</strong> Remember that you should avoid making changes without actually measuring them (for instance by using analytics or actual user feedback). You should only consider changes and deviate from what the theme has done when you have measured and found an actual pain point from your customers.
 </div>
 
-If you have identified such problems, you can then consider [hiring a developer to help you](https://support.maestrooo.com/article/698-hiring-a-shopify-expert-for-customization).
+If you have identified such problems, you can then consider [hiring a developer to help you](/theme-basics/hiring-shopify-expert).
 
 ## Remember the limits of a theme
 

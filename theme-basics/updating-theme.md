@@ -19,7 +19,7 @@ If your theme is eligible for automatic update, Shopify will automatically updat
 
 If your theme is not eligible for automatic updates, Shopify might show you a message similar to this:
 
-![Manual Update](/assets/images/theme-basics/file-ve2FPZ34tg.png)
+<img src="/assets/images/theme-basics/file-ve2FPZ34tg.png" alt="" style="max-height: 500px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 By clicking "Add to theme library," Shopify will duplicate the new version as an unpublished theme. While content and templates will be copied, you will need to manually re-apply any custom codes (which include JS, CSS, or Liquid) by yourself. Our support team does not provide any assistance for that.
 
@@ -31,6 +31,6 @@ You can also [hire a Shopify Expert](https://www.shopify.com/partners/directory)
 
 ## Unsupported updates
 
-If you use a very old version of our theme (before Prestige 6.0), an upgrade is not directly supported.
+If you use a very old version of our theme, an upgrade is not directly supported.
 
 To upgrade, you must re-download the theme from the Theme Store. As long as you purchased the theme, downloading the new version is free.
