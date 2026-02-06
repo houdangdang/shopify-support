@@ -85,16 +85,6 @@ To show reviews on your product page, open the theme editor and navigate to the 
 </div>
 
 
-### FAQ
-
-
-#### Can we hide product ratings for products without ratings?
-
-
-It is possible to hide the rating on the listing page if the product contains no reviews by turning off the "Show if no reviews" setting.
-
-
-
 
 
 ## Configuring color swatches
@@ -108,10 +98,10 @@ Color swatches are a powerful feature allowing you to show color options with co
 
 
 
-## Native color swatches
+### Native color swatches
 
 
-If you are using **Prestige v9 or higher**, **Impact v5 or higher**, **Focal v11 or higher**, **Warehouse v5 or higher,** then your theme can take advantage of native color swatches. Native color swatches allow you to manage your swatch directly from Shopify admin, without the need of any complex setup or code.
+If you are using **Verve v1 or higher,** then your theme can take advantage of native color swatches. Native color swatches allow you to manage your swatch directly from Shopify admin, without the need of any complex setup or code.
 
 
 Native color swatches leverage Shopify categories to work.
@@ -120,7 +110,7 @@ Native color swatches leverage Shopify categories to work.
 For more information on setting up native color swatches, please check the [Shopify documentation](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields).
 
 
-## Vintage color swatches
+### Vintage color swatches
 
 
 If you are using an older theme, or cannot upgrade to product categories, you can use the vintage method to setup color swatches.
@@ -128,10 +118,10 @@ If you are using an older theme, or cannot upgrade to product categories, you ca
 
 To be appropriately configured, color swatches require you to follow three steps:
 
-- [Configuring the color mapping](#Configuring-the-color-mapping-kY38O).
-- [Configuring the color option names](#Configuring-the-option-names-uiaMQ).
-- [Showing the swatches on product or collection pages](#Enabling-the-swatches-Lw-dZ).
-- [(Optional) Translating color mapping (if your store is available in multiple languages)](#Optional-Translating-color-mapping-d7X_V).
+- [Configuring the color mapping](/configuration/products.html#configuring-the-color-mapping).
+- [Configuring the color option names](/configuration/products.html#configuring-the-option-names).
+- [Showing the swatches on product or collection pages](/configuration/products.html#showing-the-swatches).
+- [(Optional) Translating color mapping (if your store is available in multiple languages)](/configuration/products.html#optional-translating-color-mapping).
 
 This guide will cover each step.
 
@@ -139,7 +129,7 @@ This guide will cover each step.
 ### Configuring the color mapping
 
 
-When the theme encounters a color name, such as *Blue*, *Navy, *or *Buffalo Brown*, it won't be able to show a color from this name automatically. The theme cannot make an assumption for you on how to render a given color, so you need to help the theme figure out how to show a given color.
+When the theme encounters a color name, such as `Blue`, `Navy`, `Buffalo Brown`, it won't be able to show a color from this name automatically. The theme cannot make an assumption for you on how to render a given color, so you need to help the theme figure out how to show a given color.
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
@@ -148,7 +138,7 @@ When the theme encounters a color name, such as *Blue*, *Navy, *or *Buffalo Brow
 </div>
 
 
-This is done through the color mapping. Color mapping will map a color name (such as *Navy*) to a hexadecimal code or color name. To open the color swatch mapping, **open the theme editor**, then **click on "Color swatch" **part:
+This is done through the color mapping. Color mapping will map a color name (such as `Navy`) to a hexadecimal code or color name. To open the color swatch mapping, **open the theme editor**, then click on **"Color swatch"** part:
 
 
 
@@ -162,10 +152,10 @@ This is done through the color mapping. Color mapping will map a color name (suc
 </div>
 
 
-When configuring the color mapping, you must enter one mapping per line. Each line must be the color name (as written in your product options), followed by the semi-colon character (:), and the hexadecimal code or file name.
+When configuring the color mapping, you must enter one mapping per line. Each line must be the color name (as written in your product options), followed by the semi-colon character (<code>:</code>), and the hexadecimal code or file name.
 
 
-#### Using a hexadecimal code
+### Using a hexadecimal code
 
 
 The most straightforward approach is to use a hexadecimal code. This allows you to create a large number of colors quickly.
@@ -198,10 +188,10 @@ For instance, here is an example mapping that allows displaying the color [#ff00
 </div>
 
 
-#### Using an image file
+### Using an image file
 
 
-Sometimes, using a hexadecimal code may not be enough. For instance, you could have dual colors such as *Red-Blue, *or patterned colors like *Zebra*.
+Sometimes, using a hexadecimal code may not be enough. For instance, you could have dual colors such as `Red-Blue`, or patterned colors like `Zebra`.
 
 
 For answering such use cases, the theme allows you to map a color name to an image file you create yourself.
@@ -210,7 +200,7 @@ For answering such use cases, the theme allows you to map a color name to an ima
 1/ The first step is to create an image file representing the color to show. If you are not familiar with creating images, you can hire a graphic designer to make those images for you. **We recommend images whose size is 100 x 100px in JPG format**.
 
 
-2/ After creating your image, **open the Shopify admin **and **select the "Files" section:**
+2/ After creating your image, **open the Shopify admin** and **select the "Files" section:**
 
 
 
@@ -243,7 +233,7 @@ For answering such use cases, the theme allows you to map a color name to an ima
 
 
 
-#### Mixing both approaches
+### Mixing both approaches
 
 
 You can, of course, mix both approaches by using hexadecimal code whenever possible and using files only when necessary.
@@ -252,7 +242,7 @@ You can, of course, mix both approaches by using hexadecimal code whenever possi
 ### Configuring the option names
 
 
-The theme will only show color swatches if the product option name is called *Color *or *Colour *(for stores in English).
+The theme will only show color swatches if the product option name is called `Color` (for stores in English).
 
 <div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
@@ -261,33 +251,7 @@ The theme will only show color swatches if the product option name is called *Co
 </div>
 
 
-However, you may want to show color swatches for different options, such as *Material *or* Finish. *The theme cannot automatically guess your intent, so you must instruct the theme which option name must be considered as a color.
-
-
-To do that, follow the steps below:
-
-
-1/ In the theme list in Shopify admin, click on the "Edit default theme content" button:
-
-
-
-<img src="/assets/images/configuring/products/configuring-color-swatches-8.png" alt="" style="max-height: 350px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-2/ Filter the sentences with *Color *to show the sentence to edit:
-
-
-
-<img src="/assets/images/configuring/products/configuring-color-swatches-9.png" alt="" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-3/ The *Color* sentence holds which option name must be considered a color swatch. You can enter a list of comma-separated option names. For instance, the setting as shown below will show any option named *Color, Colour, Material *or *Finish *as a color swatch:
-
-
-
-<img src="/assets/images/configuring/products/configuring-color-swatches-10.png" alt="" style="max-height: 100px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-10.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -297,7 +261,7 @@ To do that, follow the steps below:
 Once you have configured color mapping, the last step is to enable the color swatches on product or collection pages.
 
 
-#### Product pages
+### Product pages
 
 
 1/ **Open the theme editor**, and **navigate to the Product section**:
@@ -308,26 +272,26 @@ Once you have configured color mapping, the last step is to enable the color swa
 
 
 
-2/ In the product page template, select the *Variant picker* block:
+2/ In the product page template, select the `Variant selector` block:
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-12.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-12.png" alt="" style="max-height: 420px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
-3/ Select *Color swatch *for the *Color selector type *setting:
+3/ Select `Color swatch` for the `Color selector type` setting:
 
 
 
-<img src="/assets/images/configuring/products/configuring-color-swatches-13.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/configuring-color-swatches-13.png" alt="" style="max-height: 112px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
-#### Collection pages
+### Collection pages
 
 
-To show color swatches on product listings (such as collection pages), **open the theme editor**, **open the Theme Settings**, **select the "Product card" section**, and **select "Swatch" for the *****Color display mode*** setting:
+To show color swatches on product listings (such as collection pages), **open the theme editor**, **open the Theme Settings**, **select the "Product grid" section**, and turn on the **Show color swatch** setting:
 
 
 
@@ -344,7 +308,7 @@ To show color swatches on product listings (such as collection pages), **open th
 ### (Optional) Translating color mapping
 
 
-If your store is available in multiple languages, you must translate the mapping into each languages. For instance, a color named *Red *in English may be named *Rouge *in French. However, the color mapping only controls your store's primary language. This section will also guide you on configuring color swatches for other languages.
+If your store is available in multiple languages, you must translate the mapping into each languages. For instance, a color named `Red` in English may be named `Rouge` in French. However, the color mapping only controls your store's primary language. This section will also guide you on configuring color swatches for other languages.
 
 <div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
@@ -356,10 +320,10 @@ If your store is available in multiple languages, you must translate the mapping
 1/ Ensure the mapping has been properly defined for your primary language.
 
 
-2/ Open the *Translate & Adapt *app. In the app, ensure that the language you want to translate is selected.
+2/ Open the `Translate & Adapt` app. In the app, ensure that the language you want to translate is selected.
 
 
-3/ Click on the *Edit *button for the *Theme settings *category:
+3/ Click on the `Edit` button for the `Theme settings` category:
 
 
 
@@ -367,7 +331,7 @@ If your store is available in multiple languages, you must translate the mapping
 
 
 
-4/ On the left sidebar, select *Color Swatch*:
+4/ On the left sidebar, select `Color Swatch`:
 
 
 
@@ -383,7 +347,7 @@ If your store is available in multiple languages, you must translate the mapping
 
 
 
-6/ Translate the mapping, by ensuring that you properly adjust the color name with the translated product option values. For instance, if your product option *Red *is translated as レッド in Japanese, here is how the mapping would look like:
+6/ Translate the mapping, by ensuring that you properly adjust the color name with the translated product option values. For instance, if your product option `Red` is translated as レッド in Japanese, here is how the mapping would look like:
 
 
 
@@ -399,10 +363,10 @@ If your store is available in multiple languages, you must translate the mapping
 
 ### FAQ
 
-- Can we set up different color swatches for the same color name? Having different colors for the same color name (for instance, a different color based on the product) is not possible. You can have only one rule per color. If you need to have different swatches for the same color name, you need to [hire a developer](https://prestige-theme.helpscoutdocs.com/article/466-hiring-a-shopify-expert-for-customization).
-- Can swatches be translated? Yes, color swatches can be translated if you are using multiple languages. Refer to the section [*Translating color mapping*](#Optional-Translating-color-mapping-d7X_V) on this page for more information.
+- Can we set up different color swatches for the same color name? Having different colors for the same color name (for instance, a different color based on the product) is not possible. You can have only one rule per color. If you need to have different swatches for the same color name, you need to [hire a developer](/theme-basics/hiring-shopify-expert).
+- Can swatches be translated? Yes, color swatches can be translated if you are using multiple languages. Refer to the section [*Translating color mapping*](#optional-translating-color-mapping) on this page for more information.
 - Do color swatches reduce performance? The theme tries to optimize color swatches as much as possible. However, if you have products with a lot (20+) color options, we recommend turning off swatches on collection pages.
-- Can I show variant images instead of swatches? Instead of showing color swatches, you can instead show variant images for colors. [Learn more about this feature](//support.maestrooo.com/article/767-variant-image-for-color-options).
+- Can I show variant images instead of swatches? Instead of showing color swatches, you can instead show variant images for colors. [Learn more about this feature](/configuration/products.html#variant-image-for-color-options).
 
 
 
@@ -413,13 +377,13 @@ Our themes allow you to display variant images for color options:
 
 
 
-<img src="/assets/images/configuring/products/variant-image-for-color-options-1.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/variant-image-for-color-options-1.png" alt="" style="max-height: 180px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
 To be able to use this feature, you need to:
 
-- Ensure your option name is *Color *(or the equivalent word if your store is in a different language). If you wish to use a different word (such as *Material *or *Finish*), [follow those steps](https://prestige-theme.helpscoutdocs.com/article/417-configuring-color-swatches#Configuring-the-option-names-uiaMQ).
+- Ensure your option name is `Color` (or the equivalent word if your store is in a different language). 
 - Ensure that all the product's variants have an associated variant image. This feature won't work if at least one variant does not have an associated image. [Learn more about adding images to variants](https://help.shopify.com/en/manual/products/product-media/add-images-variants#add-images-to-existing-variants).
 
 Once you are fulfilling those two conditions:
@@ -436,7 +400,7 @@ Once you are fulfilling those two conditions:
 
 
 
-3/ Click on the "Product page" section:
+3/ Click on the "Product" section and select the "Variant selector" block:
 
 
 
@@ -444,19 +408,11 @@ Once you are fulfilling those two conditions:
 
 
 
-4/ Select the "Variant picker" block:
+4/ Then, for the "Show variant image for options" setting, enter a list of comma-separated option names for which the theme should display the option by using the variant image:
 
 
 
-<img src="/assets/images/configuring/products/variant-image-for-color-options-4.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-5/ Then, for the "Show variant image for options" setting, enter a list of comma-separated option names for which the theme should display the option by using the variant image:
-
-
-
-<img src="/assets/images/configuring/products/variant-image-for-color-options-5.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/variant-image-for-color-options-5.png" alt="" style="max-height: 140px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -466,7 +422,7 @@ Once you are fulfilling those two conditions:
 
 <div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
- <p>These instructions only work for <strong>Stretch, Impact,</strong> <strong>Prestige version 7</strong> and up, <strong>Warehouse version 6</strong> and up, <strong>Focal version 12 </strong>and up. If you use an older theme version we recommend updating. For <strong>Focal</strong> and earlier versions of <strong>Warehouse</strong> <a href="//support.maestrooo.com/article/801-displaying-a-custom-badge-label-on-collections">see our guide here</a>.</p>
+ <p>These instructions only work for <strong>Verve version 1</strong> and up. If you use an older theme version we recommend updating. For older versions, <a href="/shopify-support/theme-guides/verve.html#displaying-a-custom-badge-label-on-collections">see our guide here</a>.</p>
 
 </div>
 
@@ -474,7 +430,7 @@ Once you are fulfilling those two conditions:
 ### Configuring the badges
 
 
-With metafields, you can display custom badges on collections or product pages such as *New*, *Coming Soon, *or *BFCM*. Those custom badges can be displayed in addition to built-in ones like "On sale" or "Sold out."
+With metafields, you can display custom badges on collections or product pages such as `New`, `Coming Soon`, or `BFCM`. Those custom badges can be displayed in addition to built-in ones like "On sale" or "Sold out."
 
 
 1/ To add custom badges, open the metafields section in Shopify admin or [click this link](https://www.shopify.com/admin/metafields).
@@ -495,7 +451,7 @@ Once configured, it should look like that:
 
 
 
-<img src="/assets/images/configuring/products/custom-badges-2.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/custom-badges-2.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -512,23 +468,9 @@ Once configured, it should look like that:
 
 ### Displaying the badges
 
+After completing the above configuration, you will get an effect similar to this:
 
-To show the actual badges on your product pages, you need to add the "Badges" block to your product template.
-
-
-To do that, open the theme editor and navigate to the product page:
-
-
-
-<img src="/assets/images/configuring/products/custom-badges-4.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-Then, in the Product page section, click on "Add block" and select the "Badges" block. Re-order the block to your desired position:
-
-
-
-<img src="/assets/images/configuring/products/custom-badges-5.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/custom-badges-4.png" alt="" style="max-height: 200px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -936,287 +878,11 @@ Combined listing offers a native solution to having different product pages by c
 Unfortunately, Shopify currently restricts this app to Plus merchants.
 
 
-
-
-## Size chart
-
-<div style="background-color: #ffebee; border-left: 4px solid #f44336; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>This feature is not supported in Warehouse</p>
-
-</div>
-
-
-A size chart is a feature that allows you to show your buyers extra information about your product's dimensions and sizes to help them to choose the appropriate variant:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-1.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-A size chart is essential for clothing but can also be used for other use cases, such as furniture dimensions.
-
-
-Our themes support setting a global size chart for each product and a different size chart per product for ultimate flexibility. Size charts are tied to the product selectors.
-
-
-To display a size chart on your store, follow the steps:
-
-- [Ensure you are fulfilling the requirements](#Conditions-rK4mD).
-- [Create a page for the size chart.](#Creating-a-page-holding-the-size-chart-vJxfY)
-- [Showing the same size chart for every product](#Showing-the-same-size-chart-for-every-products-LWi5e) or [showing a different size chart for each product](#Showing-a-different-size-chart-for-each-product-bzdeg).
-
-### Conditions
-
-
-You must have a variant option called Size to use a size chart. Products without variants can't currently use size charts this way (see the FAQ for some alternatives). The option name must be called precisely *Size* (for instance, if it is named Sizes, it won't work).
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>Themes are automatically localized in various languages. If your store is in French, you must name your option <em>Taille</em> or サイズ if your store is in Japanese. You can learn more about how to change the <a href="#Changing-the-trigger-word-iA6pM">trigger keyword here</a>.</p>
-
-</div>
-
-
-### Creating a page holding the size chart
-
-
-The first step is to create a page containing the information about your size chart:
-
-
-1/ **Open Shopify admin**, and **click on "Pages"** in the "Online Store" section:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-2.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-2/ **Create a new page **and** fill it with your information:**
-
-
-
-<img src="/assets/images/configuring/products/size-chart-3.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>You can enter any title or content, but we recommend you use a meaningful name, such as <em>Size chart</em>, <em>Dress sizes...</em> This will make maintenance easier for you in the future.</p>
-
-</div>
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>Make sure that the page's visibility is set to visible. Hidden pages can't be connected in the theme editor.</p>
-
-</div>
-
-
-3/ Repeat the process if your use case involves multiple size charts by creating one different page for each unique size chart.
-
-
-### Showing the same size chart for every product
-
-
-If your use case is simple and you want to display the same size chart for each product, follow the steps below. If you instead need to display a different size chart for each product, [jump to this section](#Showing-a-different-size-chart-for-each-product-bzdeg).
-
-
-1/ **Open the theme editor**, and navigate to the **product section**:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-4.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-2/ In the sidebar, for the product template, click on "Variant picker":
-
-
-
-<img src="/assets/images/configuring/products/size-chart-5.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>If you do not see the variant picker, you might have removed it by mistake. If this is the case, click on "Add block" and select "Variant picker".</p>
-
-</div>
-
-
-3/ Select the size chart page you have created in the step before, in the *Size chart *setting:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-6.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-4/ Save.
-
-
-### Showing a different size chart for each product
-
-
-Showing a different size chart for each product is a bit more complex and requires using metafields. If your use case is simpler and you just want the same size chart for every product, [follow those instructions instead](#Showing-the-same-size-chart-for-every-products-LWi5e).
-
-
-1/ In your Shopify admin, **click on Settings **and select **Custom data **to create a new metafield:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-7.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-2/ **Click on "Products"** (as we want to create a product metafield):
-
-
-
-<img src="/assets/images/configuring/products/size-chart-8.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-3/ At the top, **click on Add definition**. For the name, write something meaningful such as *Size chart*. Select the *Page reference *metafield type, and make sure that "One page" is checked:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-9.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-Once everything is set up, your metafield should look like this:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-10.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-4/ **Click on Save** to create the metafield.
-
-
-5/ Once you have created the metafield, we must connect it to the theme editor. To do that, **open the theme editor**, and navigate to the **product section**:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-11.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-6/ In the sidebar, for the product template, click on "Variant picker":
-
-
-
-<img src="/assets/images/configuring/products/size-chart-12.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>If you do not see the variant picker, you might have removed it by mistake. If this is the case, click on "Add block" and select "Variant picker."</p>
-
-</div>
-
-
-7/ **Click the small database icon** next to the "Size chart" setting.
-
-
-
-<img src="/assets/images/configuring/products/size-chart-13.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-8/ In the list, select the metafield we created earlier to connect it:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-14.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>If you do not see the metafield in the list, ensure you have correctly created a <em>page reference </em>metafield (refer to step 3).</p>
-
-</div>
-
-
-9/ **Save your changes**.
-
-
-10/ At this stage, nothing will appear on your product page, which is normal. We have just connected the metafield but have not yet configured any size chart for our products. To do that, **open the Shopify admin** and **navigate to a product** you want to set up a size chart for. **Scroll down until you see the Metafields box**:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-15.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-11/ **Click on the Size chart** metafield, and **select the page** you want to show for this product:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-16.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-12/ Save the product, and repeat the other products' process. With this approach, you can select a unique size chart for each product (or a group of products, as the same page can be assigned to more than one product).
-
-
-You can use the bulk editor to assign the same page to multiple products in bulk. [Learn more about bulk editing](https://help.shopify.com/en/manual/custom-data/metafields/bulk-edit-metafields).
-
-
-### Changing the trigger word
-
-
-When the theme displays each product selector, it must know which one should be considered as a size option. By default, the theme uses sane defaults and considers the option name *Size *to be a size option.
-
-
-However, your option might be called *Dimensions* or *Bottom size* for marketing reasons. You can add extra trigger words to indicate the theme and consider those options as size so that the size chart can also be displayed.
-
-
-To do that, follow the steps below:
-
-
-1/ In the theme list in Shopify admin, click on the "Edit default theme content" button:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-17.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-2/ Filter the sentences with *Size *to show the sentence to edit:
-
-
-
-<img src="/assets/images/configuring/products/size-chart-18.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>When filtering, you might see several matches for "Size." The one you need to edit contains "Label" in the category (please refer to the screenshot on step 2, and ensure you are editing this text and not a different one). If you edit the incorrect text, it won't work.</p>
-
-</div>
-
-
-3/ The *Size *label sentence holds which option name must be considered a color swatch. You can enter a list of comma-separated option names. For instance, by entering *Size,Dimension*s then the size chart will be displayed for any option called either Size or Dimensions:
-
-
-### FAQ
-
-- Can I set up a size chart if my product does not have variants? As of today, the size chart feature displays next to the variant selector. If your product does not have any variant (for instance, for a unique-size product), you can add a "content" block instead on your product page and connect the content to the page.
-- Can I have one size chart per product? Yes, this is possible by using metafields. Please refer to this document for more information.
-- Can I have one size chart for each main category of products? If you have a lot of products, manually specifying a size chart metafield can be time-consuming. Let's say you have two categories of products: skirts and shirts. Skirts and shirts must have different size charts, but all skirts have the same size chart, and all shirts have the same size. You have two options to solve this issue: 
-  - Option 1: you can use bulk editing to assign the same metafield to multiple products. [Learn more about bulk editing](https://help.shopify.com/en/manual/custom-data/metafields/bulk-edit-metafields).
-  - Option 2: create two product templates: one for skirts and one for shirts. Then, statically assign the skirt size chart to the skirt template and the shirt size chart to the shirt template. [Learn more about templates.](https://prestige-theme.helpscoutdocs.com/article/464-understanding-and-managing-alternate-templates)
-
-
-
 ## Inventory / urgency bar
 
 <div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
 
- <p>Currently, the progress bar is only available on the Prestige theme.</p>
+ <p>Currently, the progress bar is only available on the Verve theme.</p>
 
 </div>
 
@@ -1227,13 +893,13 @@ GirlElements themes allows you to display the inventory you have for a given var
 ### Showing/hiding inventory
 
 
-To show inventory in your store, open the theme editor, navigate to the product page section, and add the *Inventory *block.
+To show inventory in your store, open the theme editor, navigate to the product page section, and add the `Inventory` block.
 
 
 ### Showing progress bar
 
 
-You can optionally turn on/off the *Show inventory bar *to display a progress bar and the inventory itself:
+You can optionally turn on/off the `Show inventory bar` to display a progress bar and the inventory itself:
 
 
 
@@ -1241,11 +907,11 @@ You can optionally turn on/off the *Show inventory bar *to display a progress ba
 
 
 
-To do that, after adding the inventory block, turn on the *Show progress bar *setting, and set a progress bar max value:
+To do that, after adding the inventory block, turn on the `Show inventory quantity` setting, and set a progress bar max value:
 
 
 
-<img src="/assets/images/configuring/products/inventory-urgency-bar-2.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/inventory-urgency-bar-2.png" alt="" style="max-height: 300px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -1259,7 +925,7 @@ By default, the theme will always show the inventory in green (for instance, "3 
 
 
 
-<img src="/assets/images/configuring/products/inventory-urgency-bar-3.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/inventory-urgency-bar-3.png" alt="" style="max-height: 130px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
@@ -1408,31 +1074,23 @@ If performance is your priority, consider disabling this feature in your store. 
 
 
 
-<img src="/assets/images/configuring/products/dynamic-payment-buttons-1.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/variant-image-for-color-options-2.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
-3/ Click on the "Product page" section:
+3/ Click on the "Product" section and select the "Buy buttons" block:
 
 
 
-<img src="/assets/images/configuring/products/dynamic-payment-buttons-2.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/dynamic-payment-buttons-2.png" alt="" style="max-height: 400px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 
-4/ Select the "Buy buttons" block:
+4/ Turn on or off the "Show dynamic checkout button" setting:
 
 
 
-<img src="/assets/images/configuring/products/dynamic-payment-buttons-3.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-5/ Turn on or off the "Show dynamic checkout button" setting:
-
-
-
-<img src="/assets/images/configuring/products/dynamic-payment-buttons-4.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
+<img src="/assets/images/configuring/products/dynamic-payment-buttons-4.png" alt="" style="max-height: 150px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
 
 
 <div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
@@ -1495,90 +1153,6 @@ Related products display below the main product page section as a standalone sec
 
 - Products do not appear: if some products you have selected do not, ensure [they are eligible](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations#product-recommendation-requirements). Especially, free or sold-out products won't appear as recommendations (this is a Shopify limitation that can't be lifted on our end).
 - Can we automatically select complementary products? As of today, only related products can be automatically selected. If you would like to have automatic complementary products, we recommend you to contact Shopify support to suggest them this improvement.
-
-
-
-## Pre-order template
-
-
-Our themes come with a built-in pre-order template that can be assigned to products. Before using it, it is essential to understand the limitations of this template:
-
-- Shopify does not have a native pre-order feature. Consequently, the only thing the theme does is change the wording from *Add to Cart *to *Pre-order* on product pages. The whole purchasing flow remains unchanged (for instance, the checkout and email notifications will remain the same as for a traditional order).
-- For this template to work, you must ensure the product can be purchased (it must not be sold out).
-- The template is assigned at the product level, so you cannot show the pre-order button for some specific variants.
-
-Therefore, the built-in pre-order feature in the theme is only suited for simple use cases. If you have more requirements regarding the pre-order feature, you will need to use an app (we recommend you reach Shopify support for some app recommendations).
-
-
-### Assigning the pre-order templates
-
-
-To assign a template, navigate to a resource in the Shopify admin (such as a product, page, or collection). On the bottom right, locate the "Online store" card, and **click "Default product"** to display this resource's existing templates. Finally, **select the template of your choice**, and **save**:
-
-
-
-<img src="/assets/images/configuring/products/pre-order-template-1.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>If you do not see the template you have created, this might be because the theme is not published. Alternate templates are contextual to the <strong>published theme only</strong>, so you won't be able to assign a template until the theme is published.</p>
- <p>If you customize a draft theme, the template won't appear in the Shopify admin. This is a Shopify platform limitation.</p>
-
-</div>
-
-
-
-
-## Sold out badge
-
-
-The theme automatically shows a "Sold out" badge on the collection and product pages when products become sold out. This badge can help customers visually identify unavailable products and navigate to available products instead.
-
-
-### Changing the wording
-
-
-1/ To use a different word than the default "Sold out" text, open the theme list, and click on "Edit theme default" content:
-
-
-
-<img src="/assets/images/configuring/products/sold-out-badge-1.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-2/ Click on "Product" tab to show product-related wording:
-
-
-
-<img src="/assets/images/configuring/products/sold-out-badge-2.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-3/ Scroll to find the "Sold out badge" wording, and adjust the wording to your needs:
-
-
-
-<img src="/assets/images/configuring/products/sold-out-badge-3.png" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-
-### Hiding sold-out badges on collection pages
-
-
-1/ To hide sold-out badges on collection pages, open the theme editor, click on "Theme settings" > "Product card," and turn off the "Show sold-out badge."
-
-
-
-<img src="/assets/images/configuring/products/sold-out-badge-4.gif" alt="" style="max-height: 600px; width: auto; display: block; border: 1px solid #ccc; border-radius: 4px;">
-
-
-<div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 16px 0; color: #1a1a1a;">
-
- <p>Hiding sold-out badges through settings is only possible on Impact and Prestige version 7 and higher. If you are using an older version, reach our support directly.</p>
-
-</div>
-
 
 
 

@@ -54,7 +54,7 @@ Please refer to [Limitations of selling in multiple languages](https://help.shop
 
 #### Do your theme settings come in multiple languages?
 
-Our theme Verve currently support languages: Danish, German, English, Spanish, French, Japanese, Korean, Chinese (simplified), Chinese (traditional). If you want to change German to the theme's language, simply replace `en.default.schema.json` with `de.default.schema.json`. Only one `.default` setting can exist in a theme.
+Our theme Verve currently support languages: Danish, German, English, Spanish, French, Japanese, Korean, Chinese (simplified), Chinese (traditional).
 
 
 #### Will my URL change to indicate a different language?
